@@ -1,0 +1,6 @@
+print("::::::::::::::::::::::::::::::::::::::::::::::STUDENTS FORM::::::::::::::::::::::::::::::::::::::::::::::::::")
+name =input("ENTER YOUR NAME")
+father_name =input("ENTER YOUR FATHER NAME")
+age =input("ENTER YOUR AGE")
+cnic =input("ENTER YOUR CNIC")
+print(f"NAME IS {name} FATHER NAME IS {father_name} AGE IS {age} CNIC IS {cnic}")
