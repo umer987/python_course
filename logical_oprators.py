@@ -9,4 +9,7 @@ print(":::::::::::::::::::::::::::::::::::::::::OR::::::::::::::::::::::::::::::
 print(10 > 20 or 20<10 )
 #true only one value return true whole logic become true
 print(10 > 20 or 20<10 or 45 != 45 or 10 == 10)
-
+#not opraator reverse the boolean value always
+print(":::::::::::::::::::::::::::::::::::::::::NOT:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::")
+print(12 == 12 )
+print(not 12 == 12 )
