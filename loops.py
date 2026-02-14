@@ -17,3 +17,8 @@ for i in range(-5,-15,-1):
 a = int(input("ENTER INTEGER FOR MULTIPLICATION TABLE"))
 for i in range(a , a*10+1, a):
     print(i)"""
+
+#LOOPS FOR STRINGS
+a ="SYED MUHAMMAD UMER"
+for i in range(0 ,18,1):
+    print(a[i])
