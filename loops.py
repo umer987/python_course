@@ -14,3 +14,5 @@ for i in range(-5,-15,-1):
     print(i)"""
 print("::::::::::::::::::::::::::::::::::::::::::::::TABLE WITH DIRECT LOOP:::::::::::::::::::::::::::::::::::::::::::::::::")
 a = int(input("ENTER INTEGER FOR MULTIPLICATION TABLE"))
+for i in range(a , a*10+1, a):
+    print(i)
