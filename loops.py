@@ -4,7 +4,11 @@ for i in a:
 """for i in range(1 , 20 ,2):
     print(i)"""
 
-print("::::::::::::::::::::::::::::::::::::::::::::::::SIMPLE TABLE PROGRAM:::::::::::::::::::::::::::::::::::::::::::::")
+"""print("::::::::::::::::::::::::::::::::::::::::::::::::SIMPLE TABLE PROGRAM:::::::::::::::::::::::::::::::::::::::::::::")
 a= int(input("ENTER NUMBER FOR TABLE"))
 for i in range(1 ,11, 1):
-    print(f" {a} X {i} = {a*i}" )
+    print(f" {a} X {i} = {a*i}" )"""
+
+#reverse loop
+for i in range(10,0,-1):
+    print(i)
