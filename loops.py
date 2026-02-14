@@ -8,7 +8,9 @@ for i in a:
 a= int(input("ENTER NUMBER FOR TABLE"))
 for i in range(1 ,11, 1):
     print(f" {a} X {i} = {a*i}" )"""
-
+"""
 #reverse loop
-for i in range(10,0,-1):
-    print(i)
+for i in range(-5,-15,-1):
+    print(i)"""
+print("::::::::::::::::::::::::::::::::::::::::::::::TABLE WITH DIRECT LOOP:::::::::::::::::::::::::::::::::::::::::::::::::")
+a = int(input("ENTER INTEGER FOR MULTIPLICATION TABLE"))
