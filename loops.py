@@ -19,6 +19,11 @@ for i in range(a , a*10+1, a):
     print(i)"""
 
 #LOOPS FOR STRINGS
-a ="SYED MUHAMMAD UMER"
+"""a ="SYED MUHAMMAD UMER"
 for i in range(0 ,18,1):
+    print(a[i])"""
+
+a ="SYED MUHAMMAD UMER"
+print(len(a))
+for i in range(len(a)):
     print(a[i])
