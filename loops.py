@@ -12,7 +12,8 @@ for i in range(1 ,11, 1):
 #reverse loop
 for i in range(-5,-15,-1):
     print(i)"""
-print("::::::::::::::::::::::::::::::::::::::::::::::TABLE WITH DIRECT LOOP:::::::::::::::::::::::::::::::::::::::::::::::::")
+#TABLE WITH DIRECT LOOP
+"""print("::::::::::::::::::::::::::::::::::::::::::::::TABLE WITH DIRECT LOOP:::::::::::::::::::::::::::::::::::::::::::::::::")
 a = int(input("ENTER INTEGER FOR MULTIPLICATION TABLE"))
 for i in range(a , a*10+1, a):
-    print(i)
+    print(i)"""
