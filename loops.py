@@ -23,7 +23,21 @@ for i in range(a , a*10+1, a):
 for i in range(0 ,18,1):
     print(a[i])"""
 
-a ="SYED MUHAMMAD UMER"
+"""a ="SYED MUHAMMAD UMER"
 print(len(a))
 for i in range(len(a)):
-    print(a[i])
+    print(a[i])"""
+
+"""a ="SYED MUHAMMAD UMER"
+for i in a:
+    print(i)"""
+"""#will print tonly till 14 after 14 loop with be exit
+for i in range(1,21,1):
+    if i ==15:
+        break
+    print(i)"""
+#thil will print all values except 15 bracause on 15 loop is redirecting to 14 to 16 directly
+for i in range(1,21,1):
+    if i == 15:
+        continue
+    print(i)
