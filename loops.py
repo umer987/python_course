@@ -37,7 +37,21 @@ for i in range(1,21,1):
         break
     print(i)"""
 #thil will print all values except 15 bracause on 15 loop is redirecting to 14 to 16 directly
-for i in range(1,21,1):
+"""for i in range(1,21,1):
     if i == 15:
         continue
     print(i)
+"""
+#BREAK AND ELSE USE CASE
+"""for i in range(1,21,1):
+    if i== 15:
+        print("BREAK WORKS AND ELSE NOT")
+        break
+else:
+    print("ELSE WORK AND BREAK NOT")"""
+for i in range(1,21,1):
+    if i== 115:
+        print("BREAK WORKS AND ELSE NOT")
+        break
+else:
+    print("ELSE WORK AND BREAK NOT")
