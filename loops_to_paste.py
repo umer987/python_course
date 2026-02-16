@@ -5,6 +5,8 @@ for i in range(1,11,1):
 
 #sum up to n numbers
 number = int(input("ENTER NUMBER TO SUM"))
-for i in range(1,number,1):
+add=0
+for i in range(1,number+1,1):
     print(i)
-    print("ADDITON")
+    add += i
+    print("ADDITON ",add)
