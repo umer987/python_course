@@ -57,5 +57,8 @@ else:
     print("ELSE WORK AND BREAK NOT")
 """
 #for loop question to print left paramid
-
+for i in range(1,10,1):
+    for j in range(1.10.1):
+        print("*")
+    
 
