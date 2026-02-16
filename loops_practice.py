@@ -14,8 +14,8 @@ j = int(input("ENTER THE NUMBER TO STOP"))
 for i in range(l,j+1,1):
     print(i)"""
 
-#print negative number to N
+"""#print negative number to N
 l = int(input("ENTER THE NUMBER TO START"))
-for i in range(0 ,l,-1):
+for i in range(l ,0,-1):
     print(i)
-
+"""
