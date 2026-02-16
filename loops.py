@@ -49,9 +49,13 @@ for i in range(1,21,1):
         break
 else:
     print("ELSE WORK AND BREAK NOT")"""
-for i in range(1,21,1):
+"""for i in range(1,21,1):
     if i== 115:
         print("BREAK WORKS AND ELSE NOT")
         break
 else:
     print("ELSE WORK AND BREAK NOT")
+"""
+#for loop question to print left paramid
+
+
