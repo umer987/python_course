@@ -68,17 +68,15 @@ leng= len(rev)-1
 for i in range(leng,-1,-1):
     print(rev[i])"""
 
-#check word is palandrom or not
+"""#check word is palandrom or not
 word_one = input("ENTER THE WORD")
 word2= ""
 l_of_word = len(word_one)-1
 for i in range(l_of_word , -1 , -1):
     word2+= word_one[i]
-
- 
 if word_one == word2:
     print("GIVEN WORD IS PALANDROME")
 else:
-    print("GIVEN WORD IS NOT PALANDROME")
+    print("GIVEN WORD IS NOT PALANDROME")"""
       
 
