@@ -79,4 +79,52 @@ if word_one == word2:
 else:
     print("GIVEN WORD IS NOT PALANDROME")"""
       
+#check how many characters numbers and characters in the string
+abc= input("ENTER THE WORD")
+string_count=0
+int_count=0
+char_count=0
+for i in range(0,len(abc),1):
+    if type(abc[i]) == str:
+        string_count+=1
+    elif type(abc[i]) == int:
+        int_count+=1
 
+
+
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
