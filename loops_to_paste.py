@@ -12,9 +12,9 @@ for i in range(1,number+1,1):
     print("ADDITON ",add)"""
 #factorial program
 number = int(input("ENTER NUMBER TO FACRORIAL"))
-factorial =0
+fact=1
 for i in range(1,number+1,1):
-    print(i)
-    factorial += i * i+1
+  fact*=i
+  
+print(fact)
     
-print(factorial)
