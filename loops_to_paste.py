@@ -18,7 +18,7 @@ for i in range(1,number+1,1):
 print(fact)"""
 
 
-#if number i sperfect or not
+"""#if number i sperfect or not
 number = int(input("ENTER NUMBER TO CHECK IF IT IS PERFECT OR NOT"))
 factors = 0 
 for i in range(1,number,1):
@@ -28,4 +28,4 @@ for i in range(1,number,1):
 if number == factors:
     print("GIVEN NUMBER IS PERFECT")
 else:
-    print("GIVEN NUMBER IS NOT PERFECT")
+    print("GIVEN NUMBER IS NOT PERFECT")"""
