@@ -50,3 +50,14 @@ if number == factors:
     print("GIVEN NUMBER IS PERFECT")
 else:
     print("GIVEN NUMBER IS NOT PERFECT")"""
+
+#check number is prime or composite
+count =0
+number = int(input("ENTER NUMBER TO CHECK IF IT IS PRIME OR NOT"))
+for i in range(1,11,1):
+    if number % i == 0:
+        count=count+1
+if count <= 2:
+    print("GIVEN NUMBER IS PRIME")
+else:
+    print("GIVEN NUMBER IS COMPOSITE") 
