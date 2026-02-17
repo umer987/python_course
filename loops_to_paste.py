@@ -13,8 +13,8 @@ for i in range(1,number+1,1):
 #factorial program
 number = int(input("ENTER NUMBER TO FACRORIAL"))
 factorial =0
-for i in range(number,0,-1):
+for i in range(1,number+1,1):
     print(i)
-    factorial+=i * i-1
+    factorial += i * i+1
     
 print(factorial)
