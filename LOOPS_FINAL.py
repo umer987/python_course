@@ -89,7 +89,9 @@ for i in range(0,len(abc),1):
         string_count+=1
     elif type(abc[i]) == int:
         int_count+=1
-
+    else:
+        char_count+=1
+print(f"IN GIVEN WORD THERE ARE {string_count} ALPHABATES , {int_count} INTEGER , {char_count} CHARACTERS")
 
 
 
