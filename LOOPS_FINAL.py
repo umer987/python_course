@@ -85,9 +85,9 @@ string_count=0
 int_count=0
 char_count=0
 for i in range(0,len(abc),1):
-    if type(abc[i]) == str:
+    if abc[i].isalpha():
         string_count+=1
-    elif type(abc[i]) == int:
+    elif abc[i].isdigit() :
         int_count+=1
     else:
         char_count+=1
