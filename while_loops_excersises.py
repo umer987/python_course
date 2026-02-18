@@ -4,4 +4,4 @@ leno = 0
 while leno != len(number):
     print(number[leno])
     leno += 1
-
+print("string to int" , int(number)+1)
