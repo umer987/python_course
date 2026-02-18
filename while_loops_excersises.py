@@ -15,6 +15,6 @@ while leno != 0:
 
 #accept the number and print its reverse
 number = input("ENTER THE NUMBER")
-
+leno = len(number)
 
 
