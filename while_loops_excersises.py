@@ -17,5 +17,6 @@ while leno != 0:
 number = input("ENTER THE NUMBER")
 leno = len(number)
 while leno != 0:
-
+    print(number[leno-1])
+    leno-=1
 
