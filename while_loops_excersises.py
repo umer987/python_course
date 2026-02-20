@@ -27,4 +27,6 @@ import random
 number = random.randint(0,11)
 guess = int(input("ENTER A NUMBER"))
 if guess == number:
-    print("")
+    print("YOU ARE RIGHT NUMBER IS ", number )
+else:
+    
