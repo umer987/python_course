@@ -13,10 +13,10 @@ while leno != 0:
     print(number[leno-1])
     leno -= 1"""
 
-#accept the number and print its reverse
+"""#accept the number and print its reverse
 number = input("ENTER THE NUMBER")
 leno = len(number)
 while leno != 0:
     print(number[leno-1])
-    leno-=1
+    leno-=1"""
 
