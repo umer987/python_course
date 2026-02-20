@@ -42,3 +42,6 @@ while count !=4:
         print("YOU ARE RIGHT NUMBER IS ", number )
 
 print("TRY AGAIN NUMBER WAS ", number)"""
+
+
+#for loop program to make non syymetric paramid
