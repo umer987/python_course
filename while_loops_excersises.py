@@ -22,3 +22,5 @@ while leno != 0:
 
 #guessing game
 import random
+number = random.randint(0,11)
+guess = int(input("ENTER NUMBER"))
