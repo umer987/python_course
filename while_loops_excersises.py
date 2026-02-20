@@ -31,7 +31,7 @@ if guess == number:
 else:
     print("TRY AGAIN NUMBER WAS ", number)"""
 
-import random
+"""import random
 number = random.randint(0,11)
 count = 1
 while count !=4:
@@ -41,4 +41,4 @@ while count !=4:
         print("ATTEMPT#",count)
         print("YOU ARE RIGHT NUMBER IS ", number )
 
-print("TRY AGAIN NUMBER WAS ", number)
+print("TRY AGAIN NUMBER WAS ", number)"""
