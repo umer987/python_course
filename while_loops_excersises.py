@@ -20,3 +20,10 @@ while leno != 0:
     print(number[leno-1])
     leno-=1"""
 
+
+#random number game
+import random
+number = random.randint(0,11)
+guess = int(input("ENTER A NUMBER"))
+if guess == number:
+    print("")
