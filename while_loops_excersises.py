@@ -45,3 +45,7 @@ print("TRY AGAIN NUMBER WAS ", number)"""
 
 
 #for loop program to make non syymetric paramid
+for i in range(1,11,1):
+    for j in range(1,i,1):
+        print("*")
+        print(" ")
