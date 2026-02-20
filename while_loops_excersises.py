@@ -33,9 +33,9 @@ else:
 
 import random
 number = random.randint(0,11)
-guess = int(input("ENTER A NUMBER"))
 count = 1
-while count !=3:
+while count !=4:
+    guess = int(input(f"ENTER A NUMBER ATTEMPT# {count}"))
     count += 1
     if guess == number:
         print("ATTEMPT#",count)
