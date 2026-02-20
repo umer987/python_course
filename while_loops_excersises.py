@@ -22,11 +22,23 @@ while leno != 0:
 
 
 
-#random number game
+"""#random number game
 import random
 number = random.randint(0,11)
 guess = int(input("ENTER A NUMBER"))
 if guess == number:
     print("YOU ARE RIGHT NUMBER IS ", number )
 else:
-    print("TRY AGAIN")
+    print("TRY AGAIN NUMBER WAS ", number)"""
+
+import random
+number = random.randint(0,11)
+guess = int(input("ENTER A NUMBER"))
+count = 1
+while count !=3:
+    count += 1
+    if guess == number:
+        print("ATTEMPT#",count)
+        print("YOU ARE RIGHT NUMBER IS ", number )
+
+print("TRY AGAIN NUMBER WAS ", number)
