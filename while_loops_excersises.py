@@ -20,3 +20,5 @@ while leno != 0:
     print(number[leno-1])
     leno-=1"""
 
+#guessing game
+import random
