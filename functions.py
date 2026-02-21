@@ -9,3 +9,4 @@ number_2 = int(input("ENTER NUMBER 2:- "))
 def add(a,b):
     print("THE ADDITION OF 2 NUMBERS IS ", a+b)
 add(number_1,number_2)
+
