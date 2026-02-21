@@ -31,21 +31,16 @@ if guess == number:
 else:
     print("TRY AGAIN NUMBER WAS ", number)"""
 
-"""import random
+import random
 number = random.randint(0,11)
+print(number)
 count = 1
 while count !=4:
     guess = int(input(f"ENTER A NUMBER ATTEMPT# {count}"))
     count += 1
     if guess == number:
-        print("ATTEMPT#",count)
         print("YOU ARE RIGHT NUMBER IS ", number )
+        break
+    else:    
+        print("TRY AGAIN NUMBER WAS ", number)
 
-print("TRY AGAIN NUMBER WAS ", number)"""
-
-"""
-#for loop program to make non syymetric paramid
-for i in range(1,11,1):
-    for j in range(1,i,1):
-        print("*")
-        print(" ")"""
