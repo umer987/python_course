@@ -22,3 +22,10 @@ def chck_plndro(a):
     else:
         print("STRING IS NOT PALANDROM")
 chck_plndro(stng)"""
+
+#return statment function
+number_1 = int(input("ENTER NUMBER 1:- "))
+number_2 = int(input("ENTER NUMBER 2:- "))
+def add(a,b):
+    return a+b
+print(add(number_1,number_2))
