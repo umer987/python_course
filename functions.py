@@ -28,4 +28,7 @@ number_1 = int(input("ENTER NUMBER 1:- "))
 number_2 = int(input("ENTER NUMBER 2:- "))
 def add(a,b):
     return a+b
-print(add(number_1,number_2))
+#print(add(number_1,number_2))
+z = add(number_1,number_2)
+print(z)
+
