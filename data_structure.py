@@ -17,6 +17,6 @@ a =[21,44,421,664,21]
 # a.append(2)
 # for i in a:
 #     print(i)
-
+#insert method and its functionalities insert element where ever you want to insert just give index and value
 # a.insert(3,422)
 # print(a)
