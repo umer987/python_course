@@ -10,3 +10,10 @@ a =[21,44,421,664,21]
 # print(dir(list))
 #to check functaionalities if the that functions and methods
 #help(list)
+#append method add object at the last of the list
+a.append(1)
+for i in a:
+    print(i)
+a.append(2)
+for i in a:
+    print(i)
