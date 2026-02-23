@@ -30,4 +30,6 @@ b =[21,44,421,664,281]
 # b.clear()
 # reverse method reverse whole lists
 # b.reverse()
+#sort method functanalities are it sort whole list in acending order
+# b.sort()
 print(b)
