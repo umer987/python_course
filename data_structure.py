@@ -24,6 +24,8 @@ a =[21,44,421,664,21]
 b =[21,44,421,664,21]
 #b.extend([69,72,12,35])
 #remove method functaniolites are it remove desire element from list
-b.remove(44)
-b.remove(21)
+# b.remove(44)
+# b.remove(21)
+# it removes whole list
+# b.clear()
 print(b)
