@@ -20,3 +20,6 @@ a =[21,44,421,664,21]
 #insert method and its functionalities insert element where ever you want to insert just give index and value
 # a.insert(3,422)
 # print(a)
+b =[21,44,421,664,21]
+b.extend([69,72,12,35])
+print(b)
