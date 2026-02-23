@@ -7,4 +7,6 @@ a =[21,44,421,664,21]
 # for i in a:
 #     print(i)
 #to check all methods and functions of list etc
-print(dir(list))
+# print(dir(list))
+#to check functaionalities if the that functions and methods
+#help(list)
