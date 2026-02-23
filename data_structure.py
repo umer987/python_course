@@ -22,5 +22,8 @@ a =[21,44,421,664,21]
 # print(a)
 #extend method functaniolaties are add multiple elements in the lis but within in syntax([1,2,3,4])
 b =[21,44,421,664,21]
-b.extend([69,72,12,35])
+#b.extend([69,72,12,35])
+#remove method functaniolites are it remove desire element from list
+b.remove(44)
+b.remove(21)
 print(b)
