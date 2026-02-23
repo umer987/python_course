@@ -4,5 +4,7 @@ a =[21,44,421,664,21]
 #for i in range(len(a)):
    # print(a[i])
 #method 2 of traversing a list
-for i in a:
-    print(i)
+# for i in a:
+#     print(i)
+#to check all methods and functions of list etc
+print(dir(list))
