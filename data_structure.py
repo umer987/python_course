@@ -21,15 +21,24 @@ a =[21,44,421,664,21]
 # a.insert(3,422)
 # print(a)
 #extend method functaniolaties are add multiple elements in the lis but within in syntax([1,2,3,4])
-b =[21,44,421,664,281]
+# b =[21,44,421,664,281]
 #b.extend([69,72,12,35])
 #remove method functaniolites are it remove desire element from list
 # b.remove(44)
 # b.remove(21)
+
 # it removes whole list
 # b.clear()
+
 # reverse method reverse whole lists
 # b.reverse()
+
 #sort method functanalities are it sort whole list in acending order
 # b.sort()
+
+
+
+#pop method remove desire index element (0,1,2,3,)<<<---index
+b =[21,44,421,664,281]
+popmethod = b.pop(2)
 print(b)
