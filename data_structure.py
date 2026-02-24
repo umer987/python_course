@@ -52,3 +52,8 @@ a =[21,44,421,664,21]
 # b =[21,44,421,44,44,44,664,281]
 # occur = b.count(44)
 # print(occur)
+
+#copy method copy whole list and add to another variable
+# b =[21,44,421,664,281]
+# copy = b.copy()
+# print(copy)
