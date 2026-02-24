@@ -47,3 +47,8 @@ a =[21,44,421,664,21]
 # b =[21,44,421,664,281]
 # idx=b.index(421)
 # print(idx)
+
+# #count method give youy the total times of number in  the list are appear
+# b =[21,44,421,44,44,44,664,281]
+# occur = b.count(44)
+# print(occur)
