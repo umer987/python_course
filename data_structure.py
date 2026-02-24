@@ -39,6 +39,11 @@ a =[21,44,421,664,21]
 
 
 #pop method remove desire index element (0,1,2,3,)<<<---index
-b =[21,44,421,664,281]
-popmethod = b.pop(2)
-print(b)
+# b =[21,44,421,664,281]
+# popmethod = b.pop(2)
+# print(b)
+
+# #index method retrive index from list when you give the element and it give index back
+# b =[21,44,421,664,281]
+# idx=b.index(421)
+# print(idx)
