@@ -21,3 +21,4 @@
 
 #find the gratest element from list
 l=[20,22,24,26,28,30,1000]
+greatest =0
