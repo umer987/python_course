@@ -17,3 +17,4 @@ total=0
 for i in range(0,len(l),1):
     total+=l[i]
 mean= total/len(l)
+print("THE MEAN OF THE GIVIN LIST IS:- ", mean)
