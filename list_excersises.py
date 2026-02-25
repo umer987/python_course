@@ -43,4 +43,5 @@ for i in range(0,len(l),1):
     if l[i]>great:
         great = l[i]
 
-
+index = l.index(great)
+print("THE GRATEST ELEMENT AT THE IS:- ",great," AT THE INDEX OF:- ", index)
