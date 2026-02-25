@@ -35,4 +35,7 @@ l=[20,22,24,26,28,30]
 greatest2 =l[0]
 great=0
 for i in range(0,len(l),1):
+    if l[i]>greatest2:
+        greatest2 = l[i]
+
 
