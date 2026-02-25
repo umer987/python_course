@@ -20,3 +20,4 @@
 # print("THE MEAN OF THE GIVIN LIST IS:- ", mean)
 
 #find the gratest element from list
+l=[20,22,24,26,28,30,1000]
