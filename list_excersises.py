@@ -19,11 +19,14 @@
 # mean= total/len(l)
 # print("THE MEAN OF THE GIVIN LIST IS:- ", mean)
 
-#find the gratest element from list
-l=[20,22,24,26,28,30,1000]
-greatest =0
-for i in range(0,len(l),1):
-    if l[i]>greatest:
-        greatest = l[i]
+#find the gratest element from list also index 
+# l=[20,22,24,26,28,30]
+# greatest =l[0]
 
-print("THE GRATEST ELEMENT IS:- ",greatest)
+# for i in range(0,len(l),1):
+#     if l[i]>greatest:
+#         greatest = l[i]
+# index = l.index(greatest)
+# print("THE GRATEST ELEMENT AT THE IS:- ",greatest," AT THE INDEX OF:- ",index)
+
+
