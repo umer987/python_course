@@ -7,4 +7,6 @@ for i in range(0,len(l),1):
         n.append(l[i])
     else:
         p.append(l[i])
+print("NEGATIVE ELEMENTS ARE:- ",n)
+
 
