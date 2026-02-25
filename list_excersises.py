@@ -24,4 +24,6 @@ l=[20,22,24,26,28,30,1000]
 greatest =0
 for i in range(0,len(l),1):
     if l[i]>greatest:
-        
+        greatest = l[i]
+
+print("THE GRATEST ELEMENT IS:- ",greatest)
