@@ -11,10 +11,12 @@
 # print("POSITVE ELEMENTS ARE:- ", p)
 
 
-#solve mean for an givin list
-l=[20,22,24,26,28,30]
-total=0
-for i in range(0,len(l),1):
-    total+=l[i]
-mean= total/len(l)
-print("THE MEAN OF THE GIVIN LIST IS:- ", mean)
+# #solve mean for an givin list
+# l=[20,22,24,26,28,30]
+# total=0
+# for i in range(0,len(l),1):
+#     total+=l[i]
+# mean= total/len(l)
+# print("THE MEAN OF THE GIVIN LIST IS:- ", mean)
+
+#find the gratest element from list
