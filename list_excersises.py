@@ -38,4 +38,9 @@ for i in range(0,len(l),1):
     if l[i]>greatest2:
         greatest2 = l[i]
 
+l.remove(greatest2)
+for i in range(0,len(l),1):
+    if l[i]>great:
+        great = l[i]
+
 
