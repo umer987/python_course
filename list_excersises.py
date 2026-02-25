@@ -30,3 +30,9 @@
 # print("THE GRATEST ELEMENT AT THE IS:- ",greatest," AT THE INDEX OF:- ",index)
 
 
+#find the 2nd gratest element from list also index 
+l=[20,22,24,26,28,30]
+greatest2 =l[0]
+great=0
+for i in range(0,len(l),1):
+
