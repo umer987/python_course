@@ -8,5 +8,5 @@ for i in range(0,len(l),1):
     else:
         p.append(l[i])
 print("NEGATIVE ELEMENTS ARE:- ",n)
-
+print("POSITVE ELEMENTS ARE:- ", p)
 
