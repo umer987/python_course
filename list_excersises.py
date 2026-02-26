@@ -58,4 +58,5 @@ for i in range(0,len(l),1):
 
 if check == 0:
     print("LIST IS SORTED")
-
+else:
+   
