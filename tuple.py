@@ -16,3 +16,5 @@ t = (1,2,5,9,3,8,97,4,9)
 idx = t.index(8)
 #give total count of given element in the tuple
 count = t.count(9)
+print("INDEX OF 8 ",idx)
+print("COUNT OF 9 ",count)
