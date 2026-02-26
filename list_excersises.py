@@ -31,17 +31,22 @@
 
 
 #find the 2nd gratest element from list also index 
-l=[20,22,24,26,28,30]
-greatest2 =l[0]
-great=0
-for i in range(0,len(l),1):
-    if l[i]>greatest2:
-        greatest2 = l[i]
+# l=[20,22,24,26,28,30]
+# greatest2 =l[0]
+# great=0
+# for i in range(0,len(l),1):
+#     if l[i]>greatest2:
+#         greatest2 = l[i]
 
-l.remove(greatest2)
-for i in range(0,len(l),1):
-    if l[i]>great:
-        great = l[i]
+# l.remove(greatest2)
+# for i in range(0,len(l),1):
+#     if l[i]>great:
+#         great = l[i]
 
-index = l.index(great)
-print("THE GRATEST ELEMENT AT THE IS:- ",great," AT THE INDEX OF:- ", index)
+# index = l.index(great)
+# print("THE GRATEST ELEMENT AT THE IS:- ",great," AT THE INDEX OF:- ", index)
+
+
+#check if list is sorted
+l=[1,2,3,4,5,6,7,8,9,10]
+
