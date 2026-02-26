@@ -10,3 +10,5 @@
 #     print(t[i])
 
 #methodes of tuple
+
+t = (1,2,5,9,3,8,97,4,9)
