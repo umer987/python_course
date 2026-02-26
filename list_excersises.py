@@ -48,12 +48,12 @@
 
 
 #check if list is sorted
-l=[1,2,3,4,5,6,7,8,9,10]
+l=[1,2,3,4,5,6,7,8,9,10,91,97,1009]
 check= 0
 
-for i in range(0,len(l),1):
-    if l[i+1] < l[i]:
-         check+=1
+for i in range(1,len(l),1):
+    if l[i] < l[i-1]:
+         check=1
          break
 
 if check == 0:
