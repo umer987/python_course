@@ -4,3 +4,4 @@
 
 #make student record 
 student={"name":"umer", "father_name":"muhammad shakir", "age":"21"}
+print(student)
