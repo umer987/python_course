@@ -7,7 +7,9 @@
 # print(student["name"])
 
 #traverse dictonary through loop
-student = {1:"umer",2:"b",3:"c"}
+# student = {1:"umer",2:"b",3:"c"}
 
-for i in range(1,len(student)+1,1):
-    print(student[i])
+# for i in range(1,len(student)+1,1):
+#     print(student[i])
+
+#crud on dictonary
