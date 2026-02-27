@@ -19,3 +19,7 @@
 #print(student[2]) #reading
 #student[4] ="cba" # creating if you [56] anonymus index python will accept this and and make this index in new index into dictonary
 # print(student)
+
+#traverse through loop advance
+
+d ={10:1,20:2,30:3,40:4}
