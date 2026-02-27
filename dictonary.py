@@ -25,4 +25,4 @@
 d ={10:1,20:2,30:3,40:4}
 for i in d:
     #print(i) #it will only print key but we want values
-   
+    print(d[i])
