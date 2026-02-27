@@ -13,9 +13,9 @@
 #     print(student[i])
 
 #crud on dictonary
-student = {1:"umer",2:"b",3:"c"}
+# student = {1:"umer",2:"b",3:"c"}
 #student[2]="abc" #updating
 #del student[3] #deleting
 #print(student[2]) #reading
 #student[4] ="cba" # creating if you [56] anonymus index python will accept this and and make this index in new index into dictonary
-print(student)
+# print(student)
