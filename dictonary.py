@@ -13,3 +13,4 @@
 #     print(student[i])
 
 #crud on dictonary
+student = {1:"umer",2:"b",3:"c"}
