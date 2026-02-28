@@ -103,3 +103,14 @@
 #     print(f"'{word}' is a palindrome!")
 # else:
 #     print(f"'{word}' is not a palindrome.")
+
+#multiplication table
+def multiplication_table(number, upto=10):
+    print(f"Multiplication Table for {number}")
+    print("-" * 20)
+    for i in range(1, upto + 1):
+        print(f"{number} × {i:2} = {number * i:4}")
+
+num = int(input("Enter a number: "))
+limit = int(input("Enter limit (default 10): ") or 10)
+multiplication_table(num, limit)
