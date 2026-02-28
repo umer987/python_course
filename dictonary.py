@@ -30,19 +30,14 @@
 #write a python script to merger 2 python dictonary
 # student={1:"umer",2:"abc",3:"dbc",4:"poi"}
 # student2 = {5:"umer_Shakir",6:"abcnnn",7:"dbcnnn",8:"iopoi"}
-# new={}
-# ls1=len(student)
-# ls2=len(student2)+1
-# totall=ls1+ls2
-# for i in range(1,totall,1):
-#     if i <= ls1:
-#         new.update(student[i])
-#     if i >= ls2:
-#         new.update(student2[i])
+# new=student.copy()
+# new.update(student2)
+# print(new)
 
 
-student={1:"umer",2:"abc",3:"dbc",4:"poi"}
-student2 = {5:"umer_Shakir",6:"abcnnn",7:"dbcnnn",8:"iopoi"}
-new=student.copy()
-new.update(student2)
-print(new)
+#Write a Python program to sum all the values in a dictionary
+d ={10:1,20:2,30:3,40:4}
+sum=0
+for i in d:
+    sum += d[i]
+print(sum)
