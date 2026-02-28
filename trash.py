@@ -55,26 +55,39 @@
 # calculator()
 
 
-# Temperature Converter
-def celsius_to_fahrenheit(celsius):
-    return (celsius * 9/5) + 32
+# # Temperature Converter
+# def celsius_to_fahrenheit(celsius):
+#     return (celsius * 9/5) + 32
 
-def fahrenheit_to_celsius(fahrenheit):
-    return (fahrenheit - 32) * 5/9
+# def fahrenheit_to_celsius(fahrenheit):
+#     return (fahrenheit - 32) * 5/9
 
-print("Temperature Converter")
-print("1. Celsius to Fahrenheit")
-print("2. Fahrenheit to Celsius")
+# print("Temperature Converter")
+# print("1. Celsius to Fahrenheit")
+# print("2. Fahrenheit to Celsius")
 
-choice = input("Choose (1/2): ")
+# choice = input("Choose (1/2): ")
 
-if choice == '1':
-    celsius = float(input("Enter temperature in Celsius: "))
-    fahrenheit = celsius_to_fahrenheit(celsius)
-    print(f"{celsius}°C = {fahrenheit}°F")
-elif choice == '2':
-    fahrenheit = float(input("Enter temperature in Fahrenheit: "))
-    celsius = fahrenheit_to_celsius(fahrenheit)
-    print(f"{fahrenheit}°F = {celsius}°C")
-else:
-    print("Invalid choice!")
+# if choice == '1':
+#     celsius = float(input("Enter temperature in Celsius: "))
+#     fahrenheit = celsius_to_fahrenheit(celsius)
+#     print(f"{celsius}°C = {fahrenheit}°F")
+# elif choice == '2':
+#     fahrenheit = float(input("Enter temperature in Fahrenheit: "))
+#     celsius = fahrenheit_to_celsius(fahrenheit)
+#     print(f"{fahrenheit}°F = {celsius}°C")
+# else:
+#     print("Invalid choice!")
+
+#pasword genrator 
+import random
+import string
+
+def generate_password(length=12):
+    characters = string.ascii_letters + string.digits + string.punctuation
+    password = ''.join(random.choice(characters) for _ in range(length))
+    return password
+
+length = int(input("Enter password length (default 12): ") or 12)
+password = generate_password(length)
+print(f"Generated password: {password}")
