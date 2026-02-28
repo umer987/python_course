@@ -80,14 +80,26 @@
 #     print("Invalid choice!")
 
 #pasword genrator 
-import random
-import string
+# import random
+# import string
 
-def generate_password(length=12):
-    characters = string.ascii_letters + string.digits + string.punctuation
-    password = ''.join(random.choice(characters) for _ in range(length))
-    return password
+# def generate_password(length=12):
+#     characters = string.ascii_letters + string.digits + string.punctuation
+#     password = ''.join(random.choice(characters) for _ in range(length))
+#     return password
 
-length = int(input("Enter password length (default 12): ") or 12)
-password = generate_password(length)
-print(f"Generated password: {password}")
+# length = int(input("Enter password length (default 12): ") or 12)
+# password = generate_password(length)
+# print(f"Generated password: {password}")
+
+#palandrome checker
+def is_palindrome(text):
+    # Remove spaces and convert to lowercase
+    cleaned_text = ''.join(text.lower().split())
+    return cleaned_text == cleaned_text[::-1]
+
+word = input("Enter a word or phrase: ")
+if is_palindrome(word):
+    print(f"'{word}' is a palindrome!")
+else:
+    print(f"'{word}' is not a palindrome.")
