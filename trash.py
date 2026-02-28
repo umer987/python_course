@@ -115,3 +115,20 @@
 # limit = int(input("Enter limit (default 10): ") or 10)
 # multiplication_table(num, limit)
 
+#word counter
+def count_words(text):
+    words = text.split()
+    word_count = {}
+    
+    for word in words:
+        word = word.lower().strip('.,!?()[]{}":;')
+        word_count[word] = word_count.get(word, 0) + 1
+    
+    return word_count
+
+text = input("Enter a sentence or paragraph: ")
+word_counts = count_words(text)
+
+print("\nWord frequencies:")
+for word, count in sorted(word_counts.items()):
+    print(f"'{word}': {count}")
