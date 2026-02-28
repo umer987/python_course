@@ -36,8 +36,8 @@
 
 
 #Write a Python program to sum all the values in a dictionary
-d ={10:1,20:2,30:3,40:4}
-sum=0
-for i in d:
-    sum += d[i]
-print(sum)
+# d ={10:1,20:2,30:3,40:4}
+# sum=0
+# for i in d:
+#     sum += d[i]
+# print(sum)
