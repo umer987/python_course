@@ -93,13 +93,13 @@
 # print(f"Generated password: {password}")
 
 #palandrome checker
-def is_palindrome(text):
-    # Remove spaces and convert to lowercase
-    cleaned_text = ''.join(text.lower().split())
-    return cleaned_text == cleaned_text[::-1]
+# def is_palindrome(text):
+#     # Remove spaces and convert to lowercase
+#     cleaned_text = ''.join(text.lower().split())
+#     return cleaned_text == cleaned_text[::-1]
 
-word = input("Enter a word or phrase: ")
-if is_palindrome(word):
-    print(f"'{word}' is a palindrome!")
-else:
-    print(f"'{word}' is not a palindrome.")
+# word = input("Enter a word or phrase: ")
+# if is_palindrome(word):
+#     print(f"'{word}' is a palindrome!")
+# else:
+#     print(f"'{word}' is not a palindrome.")
