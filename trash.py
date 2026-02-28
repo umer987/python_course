@@ -116,19 +116,19 @@
 # multiplication_table(num, limit)
 
 #word counter
-def count_words(text):
-    words = text.split()
-    word_count = {}
+# def count_words(text):
+#     words = text.split()
+#     word_count = {}
     
-    for word in words:
-        word = word.lower().strip('.,!?()[]{}":;')
-        word_count[word] = word_count.get(word, 0) + 1
+#     for word in words:
+#         word = word.lower().strip('.,!?()[]{}":;')
+#         word_count[word] = word_count.get(word, 0) + 1
     
-    return word_count
+#     return word_count
 
-text = input("Enter a sentence or paragraph: ")
-word_counts = count_words(text)
+# text = input("Enter a sentence or paragraph: ")
+# word_counts = count_words(text)
 
-print("\nWord frequencies:")
-for word, count in sorted(word_counts.items()):
-    print(f"'{word}': {count}")
+# print("\nWord frequencies:")
+# for word, count in sorted(word_counts.items()):
+#     print(f"'{word}': {count}")
