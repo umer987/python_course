@@ -136,31 +136,31 @@
 #rock paper secissor
 import random
 
-choices = ['rock', 'paper', 'scissors']
-computer_score = 0
-player_score = 0
+# choices = ['rock', 'paper', 'scissors']
+# computer_score = 0
+# player_score = 0
 
-while True:
-    computer = random.choice(choices)
-    player = input("\nEnter rock, paper, scissors (or 'quit'): ").lower()
+# while True:
+#     computer = random.choice(choices)
+#     player = input("\nEnter rock, paper, scissors (or 'quit'): ").lower()
     
-    if player == 'quit':
-        break
-    if player not in choices:
-        print("Invalid choice!")
-        continue
+#     if player == 'quit':
+#         break
+#     if player not in choices:
+#         print("Invalid choice!")
+#         continue
     
-    print(f"Computer chose: {computer}")
+#     print(f"Computer chose: {computer}")
     
-    if player == computer:
-        print("It's a tie!")
-    elif (player == 'rock' and computer == 'scissors') or \
-         (player == 'paper' and computer == 'rock') or \
-         (player == 'scissors' and computer == 'paper'):
-        print("You win!")
-        player_score += 1
-    else:
-        print("Computer wins!")
-        computer_score += 1
+#     if player == computer:
+#         print("It's a tie!")
+#     elif (player == 'rock' and computer == 'scissors') or \
+#          (player == 'paper' and computer == 'rock') or \
+#          (player == 'scissors' and computer == 'paper'):
+#         print("You win!")
+#         player_score += 1
+#     else:
+#         print("Computer wins!")
+#         computer_score += 1
 
-print(f"\nFinal Score - You: {player_score}, Computer: {computer_score}")
+# print(f"\nFinal Score - You: {player_score}, Computer: {computer_score}")
