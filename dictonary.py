@@ -26,3 +26,23 @@
 # for i in d:
 #     #print(i) #it will only print key but we want values
 #     print(d[i])
+
+#write a python script to merger 2 python dictonary
+# student={1:"umer",2:"abc",3:"dbc",4:"poi"}
+# student2 = {5:"umer_Shakir",6:"abcnnn",7:"dbcnnn",8:"iopoi"}
+# new={}
+# ls1=len(student)
+# ls2=len(student2)+1
+# totall=ls1+ls2
+# for i in range(1,totall,1):
+#     if i <= ls1:
+#         new.update(student[i])
+#     if i >= ls2:
+#         new.update(student2[i])
+
+
+student={1:"umer",2:"abc",3:"dbc",4:"poi"}
+student2 = {5:"umer_Shakir",6:"abcnnn",7:"dbcnnn",8:"iopoi"}
+new=student.copy()
+new.update(student2)
+print(new)
