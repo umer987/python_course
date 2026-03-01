@@ -41,3 +41,5 @@
 # for i in d:
 #     sum += d[i]
 # print(sum)
+
+#Count the frequency of each element
