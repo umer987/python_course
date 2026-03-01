@@ -48,3 +48,5 @@ number = int(input("ENTER THE NUMBER"))
 count =0
 for i in range(1,len(d)+1,1):
     if d[i] == number:
+        count +=1
+
