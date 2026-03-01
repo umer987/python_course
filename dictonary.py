@@ -47,3 +47,4 @@ d ={1:1,2:2,3:3,4:4,5:4,6:4,7:4,8:4,9:4,10:2}
 number = int(input("ENTER THE NUMBER"))
 count =0
 for i in range(1,len(d)+1,1):
+    if d[i] == number:
