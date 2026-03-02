@@ -10,4 +10,4 @@
 #handle exception as error (err)
 number =  int(input("ENTER THE NMBER TO DIVIDE"))
 try:
-  
+    print(10/ number)
