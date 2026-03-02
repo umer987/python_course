@@ -22,3 +22,5 @@ try:
     print(10/ number)
 except Exception as err:
     print(f"ERROR {err}")
+else:
+    print("OK DONE SYED MUHAMMMAD UMER")
