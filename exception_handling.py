@@ -18,3 +18,5 @@
 
 #handle exception as error (err) try-except-else if except run so else wont and else run except wont run
 number =  int(input("ENTER THE NMBER TO DIVIDE"))
+try:
+    print(10/ number)
