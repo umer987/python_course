@@ -14,3 +14,4 @@ try:
 except Exception as err:
     print(f"ERROR {err}")
 
+print("DONE")
