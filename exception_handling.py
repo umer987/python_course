@@ -2,3 +2,5 @@
 number =  int(input("ENTER THE NMBER TO DIVIDE"))
 try:
     print(10/ number)
+except ZeroDivisionError:
+    
