@@ -5,3 +5,4 @@ try:
 except ZeroDivisionError:
     print("PLEASE DONT ENTER ZERO")
 
+print("DONE")
