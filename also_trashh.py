@@ -162,3 +162,4 @@ def main():
         time.sleep(1)  # Small pause for better experience
 
 if __name__ == "__main__":
+    main()
