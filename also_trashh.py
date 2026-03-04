@@ -138,3 +138,4 @@ def main():
         print("4. 🎁 Give gift")
         print("5. ⏰ Let time pass")
         print("6. 👋 Quit")
+        
