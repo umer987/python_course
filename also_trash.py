@@ -107,3 +107,15 @@ class MoodPet:
                 self.happiness = max(0, self.happiness + effect)
                 
             print(f"\n{message}")
+
+def main():
+    print("=" * 40)
+    print("🌈 WELCOME TO MOOD PET! 🌈")
+    print("Your digital emotional companion")
+    print("=" * 40)
+    
+    # Name your pet
+    name = input("\nWhat would you like to name your pet? ").strip()
+    if not name:
+        name = "Buddy"
+        print(f"Okay, we'll call your pet {name}!")
