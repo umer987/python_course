@@ -119,3 +119,22 @@ def main():
     if not name:
         name = "Buddy"
         print(f"Okay, we'll call your pet {name}!")
+    
+    pet = MoodPet(name)
+    
+    # Game loop
+    while True:
+        pet.show_status()
+        
+        # Check if pet is too unhappy
+        if pet.happiness <= 0:
+            print(f"\n💔 {pet.name} has run away... Game Over!")
+            break
+        
+        print("\nWhat would you like to do?")
+        print("1. 🍕 Feed")
+        print("2. 🎾 Play")
+        print("3. 💤 Sleep")
+        print("4. 🎁 Give gift")
+        print("5. ⏰ Let time pass")
+        print("6. 👋 Quit")
