@@ -149,3 +149,7 @@ def main():
             pet.sleep()
         elif choice == '4':
             pet.give_gift()
+        elif choice == '5':
+            print("\n⏰ Time passes...")
+            pet.time_passes()
+        elif choice == '6':
