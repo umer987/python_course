@@ -157,3 +157,5 @@ def main():
             print(f"Final stats: {pet.get_mood()} mood, {pet.age} days old")
             break
         else:
+            print("\n❌ Invalid choice! Please try again.")
+        
