@@ -139,3 +139,7 @@ def main():
         print("5. ⏰ Let time pass")
         print("6. 👋 Quit")
         
+        choice = input("\nYour choice (1-6): ").strip()
+        
+        if choice == '1':
+            pet.feed()
