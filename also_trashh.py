@@ -160,3 +160,5 @@ def main():
             print("\n❌ Invalid choice! Please try again.")
         
         time.sleep(1)  # Small pause for better experience
+
+if __name__ == "__main__":
