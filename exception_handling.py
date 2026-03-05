@@ -36,3 +36,13 @@ def exception_fun_house():
     print("🎪 WELCOME TO THE EXCEPTION FUN HOUSE! 🎪")
     print("Where errors become entertainment!\n")
     
+    while True:
+        print("\n" + "="*40)
+        print("Choose your adventure:")
+        print("1. 🧮 Math Disaster (ZeroDivisionError)")
+        print("2. 📝 Text Trap (ValueError)")
+        print("3. 📋 List Labyrinth (IndexError)")
+        print("4. 🔑 Key Chaos (KeyError)")
+        print("5. 📁 File Funhouse (FileNotFoundError)")
+        print("6. 🚪 Exit")
+        
