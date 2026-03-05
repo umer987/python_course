@@ -131,4 +131,5 @@ def mini_exceptions():
             except (IndexError, ValueError): print("Invalid index!")
                 
         elif choice == '3':
-         
+            try: print(f"Number: {int(input('Enter number: '))}")
+            
