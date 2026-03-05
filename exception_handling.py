@@ -108,4 +108,5 @@ def exception_fun_house():
             print("❌ Invalid choice! Try 1-6")
 
 # Run it!
+if __name__ == "__main__":
          
