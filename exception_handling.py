@@ -25,3 +25,14 @@
 # else:
 #     print("OK DONE SYED MUHAMMMAD UMER")
 # print("DONE")
+
+
+"""
+EXCEPTION FUN HOUSE - Small but Complete!
+A mini program showing 5 different exception types in action
+"""
+
+def exception_fun_house():
+    print("🎪 WELCOME TO THE EXCEPTION FUN HOUSE! 🎪")
+    print("Where errors become entertainment!\n")
+    
