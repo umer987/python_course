@@ -132,4 +132,6 @@ def mini_exceptions():
                 
         elif choice == '3':
             try: print(f"Number: {int(input('Enter number: '))}")
-            
+            except ValueError: print("That's not a number!")
+                
+      
