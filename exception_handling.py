@@ -130,3 +130,5 @@ def mini_exceptions():
             try: print(f"Item: {items[int(input('Index (0-2): '))]}")
             except (IndexError, ValueError): print("Invalid index!")
                 
+        elif choice == '3':
+         
