@@ -46,3 +46,12 @@ def exception_fun_house():
         print("5. 📁 File Funhouse (FileNotFoundError)")
         print("6. 🚪 Exit")
         
+        choice = input("\nYour choice (1-6): ").strip()
+        
+        if choice == '1':
+            try:
+                num = int(input("Enter a number to divide 10 by: "))
+                result = 10 / num
+                print(f"✅ 10 ÷ {num} = {result}")
+            except ZeroDivisionError:
+                print("❌ BOOM! Can't divide by zero, genius!")
