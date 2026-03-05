@@ -100,4 +100,5 @@ def exception_fun_house():
                     print(f"✅ Created '{filename}' for you!")
                     
         elif choice == '6':
+            print("\n🎉 Thanks for visiting the Exception Fun House!")
             
