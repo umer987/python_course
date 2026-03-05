@@ -135,4 +135,5 @@ def mini_exceptions():
             except ValueError: print("That's not a number!")
                 
         elif choice == '4':
-            
+            print("Bye!"); break
+
