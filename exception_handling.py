@@ -72,4 +72,10 @@ def exception_fun_house():
             try:
                 index = int(input("Enter index (0-3): "))
                 print(f"You got: {my_list[index]}")
-           
+            except IndexError:
+                print(f"❌ No animal at index {index}! Try 0-3")
+            except ValueError:
+                print("❌ That's not a number!")
+                
+        elif choice == '4':
+            
