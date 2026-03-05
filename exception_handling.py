@@ -58,3 +58,12 @@ def exception_fun_house():
             except ValueError:
                 print("❌ That's not even a number!")
                 
+        elif choice == '2':
+            try:
+                age = int(input("Enter your age: "))
+                if age < 0:
+                    raise ValueError("Age can't be negative!")
+                print(f"✅ You are {age} years old")
+            except ValueError as e:
+                print(f"❌ Oops! {e}")
+                
