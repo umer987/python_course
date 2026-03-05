@@ -120,3 +120,8 @@ def mini_exceptions():
         print("\n1. Divide 2. Index 3. Convert 4. Quit")
         choice = input("Choice: ")
         
+        if choice == '1':
+            try: print(f"10 / {n:=int(input('Number: '))} = {10/n}")
+            except ZeroDivisionError: print("No zero!")
+            except ValueError: print("Numbers only!")
+                
