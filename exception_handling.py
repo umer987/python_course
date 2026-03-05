@@ -106,4 +106,6 @@ def exception_fun_house():
             
         else:
             print("❌ Invalid choice! Try 1-6")
+
+# Run it!
          
