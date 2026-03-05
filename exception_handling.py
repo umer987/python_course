@@ -85,4 +85,10 @@ def exception_fun_house():
                 print(f"Here's your fruit: {my_dict[fruit]}")
             except KeyError:
                 print(f"❌ Sorry, no {fruit} here! Try apple, banana, or cherry")
+                
+        elif choice == '5':
+            filename = input("Enter filename to read: ")
+            try:
+                with open(filename, 'r') as f:
+                    print(f"📄 First line: {f.readline().strip()}")
             
