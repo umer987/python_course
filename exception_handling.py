@@ -105,4 +105,5 @@ def exception_fun_house():
             break
             
         else:
-            
+            print("❌ Invalid choice! Try 1-6")
+         
