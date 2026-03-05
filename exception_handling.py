@@ -66,4 +66,10 @@ def exception_fun_house():
                 print(f"✅ You are {age} years old")
             except ValueError as e:
                 print(f"❌ Oops! {e}")
-                
+        elif choice == '3':
+            my_list = ['🐶', '🐱', '🐭', '🐹']
+            print(f"Animal list: {my_list}")
+            try:
+                index = int(input("Enter index (0-3): "))
+                print(f"You got: {my_list[index]}")
+           
