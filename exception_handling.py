@@ -81,4 +81,8 @@ def exception_fun_house():
             my_dict = {'apple': '🍎', 'banana': '🍌', 'cherry': '🍒'}
             print(f"Fruits: {my_dict}")
             try:
+                fruit = input("Enter fruit name: ").lower()
+                print(f"Here's your fruit: {my_dict[fruit]}")
+            except KeyError:
+                print(f"❌ Sorry, no {fruit} here! Try apple, banana, or cherry")
             
