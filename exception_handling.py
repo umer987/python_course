@@ -137,3 +137,4 @@ def mini_exceptions():
         elif choice == '4':
             print("Bye!"); break
 
+mini_exceptions()
