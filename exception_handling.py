@@ -55,3 +55,6 @@ def exception_fun_house():
                 print(f"✅ 10 ÷ {num} = {result}")
             except ZeroDivisionError:
                 print("❌ BOOM! Can't divide by zero, genius!")
+            except ValueError:
+                print("❌ That's not even a number!")
+                
