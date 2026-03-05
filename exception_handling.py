@@ -91,4 +91,11 @@ def exception_fun_house():
             try:
                 with open(filename, 'r') as f:
                     print(f"📄 First line: {f.readline().strip()}")
+            except FileNotFoundError:
+                print(f"❌ File '{filename}' doesn't exist!")
+                create = input("Create it? (y/n): ").lower()
+                if create == 'y':
+                    with open(filename, 'w') as f:
+                        f.write("You created this file!")
+                    print(f"✅ Created '{filename}' for you!")
             
