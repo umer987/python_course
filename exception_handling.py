@@ -104,3 +104,5 @@ def exception_fun_house():
             print("Remember: Errors aren't scary when you handle them! 🚀")
             break
             
+        else:
+            
