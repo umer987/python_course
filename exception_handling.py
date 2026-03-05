@@ -110,3 +110,10 @@ def exception_fun_house():
 # Run it!
 if __name__ == "__main__":
     exception_fun_house()                
+
+
+
+# MINI EXCEPTION DEMO - 15 lines only!
+
+def mini_exceptions():
+    while True:
