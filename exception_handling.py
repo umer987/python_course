@@ -98,4 +98,6 @@ def exception_fun_house():
                     with open(filename, 'w') as f:
                         f.write("You created this file!")
                     print(f"✅ Created '{filename}' for you!")
+                    
+        elif choice == '6':
             
