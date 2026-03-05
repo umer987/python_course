@@ -78,4 +78,7 @@ def exception_fun_house():
                 print("❌ That's not a number!")
                 
         elif choice == '4':
+            my_dict = {'apple': '🍎', 'banana': '🍌', 'cherry': '🍒'}
+            print(f"Fruits: {my_dict}")
+            try:
             
