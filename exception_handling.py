@@ -102,4 +102,5 @@ def exception_fun_house():
         elif choice == '6':
             print("\n🎉 Thanks for visiting the Exception Fun House!")
             print("Remember: Errors aren't scary when you handle them! 🚀")
+            break
             
