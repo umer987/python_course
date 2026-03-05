@@ -117,3 +117,6 @@ if __name__ == "__main__":
 
 def mini_exceptions():
     while True:
+        print("\n1. Divide 2. Index 3. Convert 4. Quit")
+        choice = input("Choice: ")
+        
