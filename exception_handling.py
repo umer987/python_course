@@ -125,3 +125,8 @@ def mini_exceptions():
             except ZeroDivisionError: print("No zero!")
             except ValueError: print("Numbers only!")
                 
+        elif choice == '2':
+            items = ['a','b','c']
+            try: print(f"Item: {items[int(input('Index (0-2): '))]}")
+            except (IndexError, ValueError): print("Invalid index!")
+                
