@@ -13,3 +13,11 @@ elif check == 2:
     filename = input("ENTER FILE NAME TO READ")
     f = open(rf"{filename}.txt")
     print(f.read())
+elif check == 3:
+    filename = input("ENTER FILE NAME")
+    filecontent= input("ENTER FILE CONTENT")
+    f =open(f"{filename}.txt",'a') 
+    f.write(filecontent)
+    f.close()
+elif check == 4:
+     
