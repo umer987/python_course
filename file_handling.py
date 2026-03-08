@@ -3,4 +3,12 @@
 # print(p.read())
 
 #create file
-r =open('azc.txt','w')
+# r =open('azc.txt','w')
+# r.write("im SYED MUHAMMAD UMER SHAKIR")
+# r.close()
+
+# #adding content in file
+# r =open('azc.txt','w')
+# r.write("im SYED MUHAMMAD UMER SHAKIR")
+# r.close()
+
