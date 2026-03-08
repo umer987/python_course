@@ -1,3 +1,4 @@
+import os
 print("PRESS 1 FOR CREATE A FILE")
 print("PRESS 2 FOR READ A FILE")
 print("PRESS 3 FOR UPDATE A FILE")
@@ -20,4 +21,6 @@ elif check == 3:
     f.write(filecontent)
     f.close()
 elif check == 4:
-     
+     filename = input("ENTER FILE NAME")
+     os.remove(f"{filename}.txt")
+     print(f"File {filename} deleted successfully")
