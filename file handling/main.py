@@ -8,4 +8,8 @@ if check == 1:
     filecontent= input("ENTER FILE CONTENT")
     f =open(f"{filename}.txt",'w') 
     f.write(filecontent)
-    
+    f.close()
+elif check == 2:
+    filename = input("ENTER FILE NAME TO READ")
+    f = open(rf"{filename}.txt")
+    print(f.read())
