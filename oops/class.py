@@ -16,4 +16,5 @@
 
 #constructor in opps we cant make class with paramaters like functions but we can do it by constructors 
 class Factory:
-
+    def __init__(self,material, zips, pockets):
+    
