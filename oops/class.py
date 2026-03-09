@@ -28,3 +28,4 @@ rebook = Factory("lather" , 2 ,3)
 campus = Factory("nylon" , 4 ,5)
 
 rebook.show()
+campus.show()
