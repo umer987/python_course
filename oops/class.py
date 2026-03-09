@@ -21,4 +21,7 @@ class Factory:
         self.zips =zips
         self.pockets = pockets
     def show(self):
- 
+        print(f"your products details are pockets are {self.pockets}, zips  are {self.zips}, and material are {self.material} ")
+
+
+
