@@ -20,7 +20,5 @@ class Factory:
         self.material = material
         self.zips =zips
         self.pockets = pockets
-
-
-
-rebook = Factory("lather" , 2 ,3)
+    def show(self):
+ 
