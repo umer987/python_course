@@ -23,3 +23,4 @@ class Factory:
 
 
 
+rebook = Factory("lather" , 2 ,3)
