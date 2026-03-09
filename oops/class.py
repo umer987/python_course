@@ -24,4 +24,4 @@ class Factory:
         print(f"your products details are pockets are {self.pockets}, zips  are {self.zips}, and material are {self.material} ")
 
 
-
+rebook = Factory("lather" , 2 ,3)
