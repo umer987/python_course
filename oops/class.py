@@ -15,17 +15,24 @@
 
 
 #constructor in opps we cant make class with paramaters like functions but we can do it by constructors 
-class Factory:
-    def __init__(self,material, zips, pockets):
-        self.material = material
-        self.zips =zips
-        self.pockets = pockets
-    def show(self):
-        print(f"your products details are pockets are {self.pockets}, zips  are {self.zips}, and material are {self.material} ")
+# class Factory:
+#     def __init__(self,material, zips, pockets):
+#         self.material = material
+#         self.zips =zips
+#         self.pockets = pockets
+#     def show(self):
+#         print(f"your products details are pockets are {self.pockets}, zips  are {self.zips}, and material are {self.material} ")
 
 
-rebook = Factory("lather" , 2 ,3)
-campus = Factory("nylon" , 4 ,5)
+# rebook = Factory("lather" , 2 ,3)
+# campus = Factory("nylon" , 4 ,5)
 
-rebook.show()
-campus.show()
+# rebook.show()
+# campus.show()
+
+
+# #types of attribute and methods
+# class Factory:
+#     a =12 # noramal attributes
+#     def __init__(self, name):
+#         self.name = name #instance attributes
