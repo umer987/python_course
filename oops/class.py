@@ -1,10 +1,10 @@
-class Factory:
-    a =12
+# class Factory:
+#     a =12
 
-    def hello(self):
-        print("SYED MUHAMMAD UMER HELLO")
+#     def hello(self):
+#         print("SYED MUHAMMAD UMER HELLO")
 
-    print("HOW ARE YOU")
+#     print("HOW ARE YOU")
 
 
 
@@ -12,3 +12,8 @@ class Factory:
 # obj = Factory()
 # print(obj.a)
 # obj.hello() 
+
+
+#constructor in opps we cant make class with paramaters like functions but we can do it by constructors 
+class Factory:
+
