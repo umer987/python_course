@@ -25,3 +25,4 @@ class Factory:
 
 
 rebook = Factory("lather" , 2 ,3)
+campus = Factory("nylon" , 4 ,5)
