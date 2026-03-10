@@ -20,3 +20,5 @@ class Animal:
 class Human(Animal):
     pass
 
+obj = Human("umer")
+obj.ph()
