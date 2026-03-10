@@ -17,3 +17,6 @@ class Animal:
     def ph(self):
         print(f"YOUR NAME IS {self.name}")
 
+class Human(Animal):
+    pass
+
