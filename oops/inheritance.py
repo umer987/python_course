@@ -50,3 +50,6 @@ class Animal:
 class Human:
     b="umer"
 
+class Robots(Human, Animal):
+    c="cc1"
+
