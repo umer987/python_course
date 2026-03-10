@@ -12,3 +12,5 @@ class Dog(Animal):
 
 animals =[Dog(), Cat(),Animal()]
 
+for i in animals:
+ 
