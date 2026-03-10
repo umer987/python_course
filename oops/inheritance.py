@@ -82,3 +82,4 @@ class IsbFactory(LhrFactory):
 
 obj =IsbFactory("nylon" ,2 ,"black" , "4")  
 obj.print_material()
+obj.print_material_2()
