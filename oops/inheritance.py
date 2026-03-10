@@ -53,3 +53,5 @@ class Human:
 class Robots(Human, Animal):
     c="cc1"
 
+obj = Robots()
+print(obj.a, obj.b , obj.c)
