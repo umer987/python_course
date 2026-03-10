@@ -47,3 +47,6 @@ obj.ph()
 class Animal:
     a = "loin"
 
+class Human:
+    b="umer"
+
