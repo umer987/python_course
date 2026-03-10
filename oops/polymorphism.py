@@ -4,3 +4,4 @@ class Animal:
 
 class Cat(Animal):
     def sound(self):
+        return "meow"
