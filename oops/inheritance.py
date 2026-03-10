@@ -72,3 +72,10 @@ class LhrFactory(KhiFactory):
     def print_material_2(self):
         print(f"LHR FACTORY {self.material} {self.zips} {self.color}")
 
+class IsbFactory(LhrFactory):
+    def __init__(self, material, zips, color, pockets):
+        super().__init__(material, zips, color)
+        self.pockets = pockets
+    def print_material3(self):
+        print(f"ISB FACTORY {self.material} {self.zips} {self.color} {self.pockets}")
+
