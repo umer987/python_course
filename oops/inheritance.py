@@ -8,4 +8,3 @@ class FactoryISB(FactoryKHI):
 obj = FactoryISB()
 print(obj.a)
 obj.fun()
-ok
