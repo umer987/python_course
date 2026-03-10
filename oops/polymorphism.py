@@ -10,3 +10,5 @@ class Dog(Animal):
     def sound(self):
         return "bark"
 
+animals =[Dog(), Cat(),Animal()]
+
