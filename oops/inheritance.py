@@ -11,14 +11,36 @@
 
 
 #contructor in oops
+# class Animal:
+#     def __init__(self, name):
+#         self.name= name
+#     def ph(self):
+#         print(f"YOUR NAME IS {self.name}")
+
+# class Human(Animal):
+#     pass
+
+# obj = Human("umer")
+# obj.ph()
+
+
 class Animal:
     def __init__(self, name):
         self.name= name
     def ph(self):
-        print(f"YOUR NAME IS {self.name}")
+        print(f"YOUR NAME IS {self.name} {self.age} ")
 
 class Human(Animal):
-    pass
+    def __init__(self, name ,age):
+        super().__init__(name)
+        self.age =age
 
-obj = Human("umer")
+# obj1 =Animal("umer")
+# obj1.ph()
+
+obj = Human("umer" ,31)
 obj.ph()
+
+
+
+#types of inheritance
