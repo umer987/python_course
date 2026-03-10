@@ -8,3 +8,5 @@ class Cat(Animal):
     
 class Dog(Animal):
     def sound(self):
+        return "bark"
+
