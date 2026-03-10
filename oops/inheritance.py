@@ -79,3 +79,5 @@ class IsbFactory(LhrFactory):
     def print_material3(self):
         print(f"ISB FACTORY {self.material} {self.zips} {self.color} {self.pockets}")
 
+
+obj =IsbFactory("nylon" ,2 ,"black" , "4")  
