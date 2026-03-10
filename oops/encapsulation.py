@@ -1,1 +1,1 @@
-#starting encapsulation lesson form today
+#starting encapsulation lesson form today no 
