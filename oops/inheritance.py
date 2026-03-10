@@ -1,10 +1,16 @@
-class FactoryKHI:
-    a ="this is KHI FACTORY ATTR"
-    def fun(self):
-        print("this is KHI FACTORY DEF")
+# class FactoryKHI:
+#     a ="this is KHI FACTORY ATTR"
+#     def fun(self):
+#         print("this is KHI FACTORY DEF")
 
-class FactoryISB(FactoryKHI):
-    pass
-obj = FactoryISB()
-print(obj.a)
-obj.fun()
+# class FactoryISB(FactoryKHI):
+#     pass
+# obj = FactoryISB()
+# print(obj.a)
+# obj.fun()
+
+
+#contructor in oops
+class Animal:
+    def __init__(self, name):
+        self.name= name
