@@ -14,3 +14,6 @@
 class Animal:
     def __init__(self, name):
         self.name= name
+    def ph(self):
+        print(f"YOUR NAME IS {self.name}")
+
