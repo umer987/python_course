@@ -24,34 +24,44 @@
 # obj.ph()
 
 
-class Animal:
-    def __init__(self, name):
-        self.name= name
-    def ph(self):
-        print(f"YOUR NAME IS {self.name} {self.age} ")
+# class Animal:
+#     def __init__(self, name):
+#         self.name= name
+#     def ph(self):
+#         print(f"YOUR NAME IS {self.name} {self.age} ")
 
-class Human(Animal):
-    def __init__(self, name ,age):
-        super().__init__(name)
-        self.age =age
+# class Human(Animal):
+#     def __init__(self, name ,age):
+#         super().__init__(name)
+#         self.age =age
 
-# obj1 =Animal("umer")
-# obj1.ph()
+# # obj1 =Animal("umer")
+# # obj1.ph()
 
-obj = Human("umer" ,31)
-obj.ph()
+# obj = Human("umer" ,31)
+# obj.ph()
 
 
 
 #types of inheritance multiple inheritance
-class Animal:
-    a = "loin"
+# class Animal:
+#     a = "loin"
 
-class Human:
-    b="umer"
+# class Human:
+#     b="umer"
 
-class Robots(Human, Animal):
-    c="cc1"
+# class Robots(Human, Animal):
+#     c="cc1"
 
-obj = Robots()
-print(obj.a, obj.b , obj.c)
+# obj = Robots()
+# print(obj.a, obj.b , obj.c)
+
+
+#types of inheritance multilevel inheritance
+class KhiFactory:
+    def __init__(self , material , zips):
+        self.material = material
+        self.zips = zips
+    def print_material(self):
+        print(f"KHI FACTORY {self.material} {self.zips}")
+
