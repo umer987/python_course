@@ -43,4 +43,7 @@ obj.ph()
 
 
 
-#types of inheritance
+#types of inheritance multiple inheritance
+class Animal:
+    a = "loin"
+
