@@ -2,3 +2,5 @@ class Animal:
     def sound(self):
         return "bark"
 
+class Cat(Animal):
+
