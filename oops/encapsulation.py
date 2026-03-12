@@ -5,3 +5,4 @@ class Factory:
     def show(self):
         print("hello umer shakir")
 
+class Factory2(Factory):
