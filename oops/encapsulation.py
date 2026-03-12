@@ -1,1 +1,2 @@
 #starting encapsulation 
+class Factory:
