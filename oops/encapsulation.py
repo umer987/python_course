@@ -31,4 +31,5 @@ class Factory2(Factory):
         print(super().__a)
 
 
+obj = Factory2()
 
