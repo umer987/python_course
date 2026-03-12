@@ -9,3 +9,6 @@ class Factory2(Factory):
     b = "ISLAMABAD"
 
     def show2(self):
+        print(super()._a)
+
+
