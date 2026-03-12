@@ -21,3 +21,6 @@
 class Factory:
     __a = "KARACHI"
 
+    def __show(self):
+        print("hello umer shakir")
+
