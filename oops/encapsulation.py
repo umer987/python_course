@@ -33,3 +33,4 @@ class Factory2(Factory):
 
 obj = Factory2()
 
+obj.show2()
