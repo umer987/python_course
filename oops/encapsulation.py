@@ -6,3 +6,5 @@ class Factory:
         print("hello umer shakir")
 
 class Factory2(Factory):
+    b = "ISLAMABAD"
+
