@@ -8,3 +8,4 @@ class Factory:
 class Factory2(Factory):
     b = "ISLAMABAD"
 
+    def show2(self):
