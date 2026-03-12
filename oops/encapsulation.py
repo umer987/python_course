@@ -1,4 +1,4 @@
-#starting encapsulation 
+#starting encapsulation _single underscor isnot work in python python not support protected acces modifier
 class Factory:
     _a = "KARACHI"
 
