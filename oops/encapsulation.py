@@ -2,3 +2,4 @@
 class Factory:
     _a = "KARACHI"
 
+    def show(self):
