@@ -58,3 +58,6 @@
 #     sum =0
 #     print(args)
 #     for i in args:
+#         sum = sum+i
+       
+#     print("THE TOTAL ADDITION OF NUMBERS IS " , sum)
