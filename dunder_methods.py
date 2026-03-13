@@ -5,3 +5,5 @@ class Car:
 c = Car("Toyota")
 
 class Student:
+    def __init__(self, name):
+        self.name = name
