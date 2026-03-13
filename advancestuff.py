@@ -65,3 +65,6 @@
 # a(1,2,3,4,5,6,7,8,9) #now you can give more than expected aurguments 
 
 
+# **kwargs is used to get aurguments with key value pair and it saves value in dictonary
+# def info(**kwargs):
+#     print(kwargs)
