@@ -53,3 +53,8 @@
 #     print(a+b)
 # a(1,2) #if we give more than 2 aurguments i will give error
 
+
+# def a(*args):
+#     sum =0
+#     print(args)
+#     for i in args:
