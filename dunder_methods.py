@@ -22,3 +22,5 @@ class MyList:
 
     def __len__(self):
         return len(self.items)
+
+obj = MyList([1,2,3,4])
