@@ -73,3 +73,4 @@
 
 # def info(**kwargs):
 #     for i in kwargs:
+#         print(f"{i} : {kwargs[i]}")
