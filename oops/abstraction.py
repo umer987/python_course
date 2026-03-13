@@ -17,3 +17,7 @@ class square(abstract):
 class circle(abstract):
     def __init__(self,radius):
         self.radius=radius  
+   
+    def parameter(self):
+        print("ok")
+    
