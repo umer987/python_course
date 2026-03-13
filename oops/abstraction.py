@@ -8,3 +8,7 @@ class abstract(ABC):
     @abstractmethod
     def area(self):
         pass
+
+class square(abstract):
+    def __init__(self, side):
+        self.side=side
