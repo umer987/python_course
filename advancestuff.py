@@ -61,3 +61,7 @@
 #         sum = sum+i
        
 #     print("THE TOTAL ADDITION OF NUMBERS IS " , sum)
+
+# a(1,2,3,4,5,6,7,8,9) #now you can give more than expected aurguments 
+
+
