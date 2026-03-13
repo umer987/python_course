@@ -24,3 +24,4 @@ class circle(abstract):
     
     def area(self):
         print("ok2")
+onj =circle(7)
