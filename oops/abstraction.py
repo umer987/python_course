@@ -21,3 +21,5 @@ class circle(abstract):
     def parameter(self):
         print("ok")
     
+    
+    def area(self):
