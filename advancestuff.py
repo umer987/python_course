@@ -68,3 +68,8 @@
 # **kwargs is used to get aurguments with key value pair and it saves value in dictonary
 # def info(**kwargs):
 #     print(kwargs)
+
+# info(name="umer",age="22",gender="male")
+
+# def info(**kwargs):
+#     for i in kwargs:
