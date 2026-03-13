@@ -19,3 +19,5 @@ print(s)
 class MyList:
     def __init__(self, items):
         self.items = items
+
+    def __len__(self):
