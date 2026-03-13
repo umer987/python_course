@@ -47,3 +47,9 @@
 
 
 
+# *args is used when you dont know the number of aurguments your function is reciving and it stores data in tuple form
+
+# def a(a,b):
+#     print(a+b)
+# a(1,2) #if we give more than 2 aurguments i will give error
+
