@@ -12,3 +12,8 @@ class abstract(ABC):
 class square(abstract):
     def __init__(self, side):
         self.side=side
+
+
+class circle(abstract):
+    def __init__(self,radius):
+        self.radius=radius  
