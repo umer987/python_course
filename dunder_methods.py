@@ -21,3 +21,4 @@ class MyList:
         self.items = items
 
     def __len__(self):
+        return len(self.items)
