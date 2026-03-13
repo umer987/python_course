@@ -74,3 +74,5 @@
 # def info(**kwargs):
 #     for i in kwargs:
 #         print(f"{i} : {kwargs[i]}")
+
+# info(name="umer",age="22",gender="male")
