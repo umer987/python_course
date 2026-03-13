@@ -24,3 +24,5 @@ class MyList:
         return len(self.items)
 
 obj = MyList([1,2,3,4])
+
+print(len(obj))
