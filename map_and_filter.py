@@ -24,3 +24,4 @@
 # print(list(ev))
 
 l=[1,2,3,4,5,6,7,8,9,10,11,12]
+ev = filter(lambda x : True if x%2 ==0 else False,l)
