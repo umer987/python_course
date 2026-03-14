@@ -3,3 +3,4 @@
 # print(add(1,2))
 
 #check number is even or odd
+evod = lambda a: "even" if a%2 ==0 else "odd"
