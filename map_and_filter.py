@@ -7,3 +7,6 @@
 #it is not neccasory to use lambda function
 # l =[1,2,3,4,5]
 # def doub(x):
+#     return x*2
+# double =map(doub,l)
+# print(list(double))
