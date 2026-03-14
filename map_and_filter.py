@@ -5,3 +5,5 @@
 # print(list(double))
 
 #it is not neccasory to use lambda function
+# l =[1,2,3,4,5]
+# def doub(x):
