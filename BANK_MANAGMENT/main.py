@@ -182,3 +182,5 @@ if check == 1:
     user.create_account()
 elif check ==2:
     user.deposite()
+elif check == 3:
+    user.withdrwal()
