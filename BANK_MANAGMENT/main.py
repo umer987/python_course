@@ -184,3 +184,5 @@ elif check ==2:
     user.deposite()
 elif check == 3:
     user.withdrwal()
+elif check == 4:
+    user.details()
