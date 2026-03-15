@@ -43,3 +43,6 @@ class Bank:
             "pin":int(input("YOUR PIN:- ")),
             "accountNo.":Bank.__accountgenrate(),
             "balance":0
+        }
+        if datai['age'] < 18 or len(str(datai['pin'])) != 4:
+            print("SORRY YOU CANT CREATE ACCOUNT")
