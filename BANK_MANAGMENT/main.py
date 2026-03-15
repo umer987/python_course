@@ -164,3 +164,15 @@ class Bank:
                 Bank.data.pop(index)
                 print("account deleted successfully ")
                 Bank.__update()
+
+#delete close
+
+
+
+user = Bank()
+
+print("PRESS 1 FOR CREATING ACCOUNT")
+print("PRESS 2 FOR DEPOSITE MONEY")
+print("PRESS 3 FOR WIDTHDRAWL THE MONEY")
+print("PRESS 4 FOR DETAILS")
+print("PRESS 5 FOR UPDATE DETAILS")
