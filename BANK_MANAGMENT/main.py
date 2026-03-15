@@ -158,3 +158,9 @@ class Bank:
             check = input("press y if you actually want to delete the account or press n")
             if check == 'n' or check == "N":
                 print("bypassed")
+            else:
+                index = Bank.data.index(userdata[0])
+                print(index)
+                Bank.data.pop(index)
+                print("account deleted successfully ")
+                Bank.__update()
