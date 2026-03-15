@@ -155,3 +155,6 @@ class Bank:
         if userdata == False:
             print("sorry no such data exist ")
         else:
+            check = input("press y if you actually want to delete the account or press n")
+            if check == 'n' or check == "N":
+                print("bypassed")
