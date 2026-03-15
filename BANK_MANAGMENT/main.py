@@ -83,3 +83,6 @@ class Bank:
         acc_pin = int(input("PLEASE ENTER 4 DIGIT PIN:- "))
         user_data = [i for i in Bank.data if i['accountNo.'] == acc_num and i['pin'] == acc_pin]            
 
+        if user_data == False:
+            print("ACCOUNT NOT FETCH")
+        else:
