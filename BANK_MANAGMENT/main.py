@@ -34,3 +34,8 @@ class Bank:
         acc_id = num + alp + spcchar
         random.shuffle(acc_id)
         return "".join(acc_id)
+ 
+    def create_account(self):
+        datai ={
+            "name":input("YOUR NAME:- "),
+            "age":int(input("YOUR AGE:- ")),
