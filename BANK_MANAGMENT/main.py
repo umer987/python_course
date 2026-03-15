@@ -113,3 +113,6 @@ class Bank:
     def update_details(self):
         acc_num = input("PLEASE ENTER YOUR ACCOUNT NUMBER:- ")            
         acc_pin = int(input("PLEASE ENTER 4 DIGIT PIN:- "))
+        userdata = [i for i in Bank.data if i['accountNo.'] == acc_num and i['pin'] == acc_pin]
+        print("ENTER UPDATED DETAILS OR JUST PRESS ENTER TO LEVE IT AS IT IS")
+        newdata ={
