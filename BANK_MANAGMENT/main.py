@@ -120,3 +120,9 @@ class Bank:
             "age":int(input("YOUR AGE:- ")),
             "email":input("YOUR EMAIL:- "),
             "pin":input("YOUR PIN:- "),
+        }
+        if newdata["name"] == "":
+                newdata["name"] = userdata[0]['name']
+        if newdata["age"] == "":
+                newdata["age"] = userdata[0]['age']
+        if newdata["email"] == "":
