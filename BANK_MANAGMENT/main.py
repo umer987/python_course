@@ -69,3 +69,6 @@ class Bank:
             amount = int(input("how much you want to depoit "))
             if amount  > 100000 or amount < 0:
                 print("sorry the amount is too much you can deposit below 10000 and above 0")
+
+            else:
+                user_data[0]['balance'] += amount
