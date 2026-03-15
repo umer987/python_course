@@ -134,3 +134,7 @@ class Bank:
         newdata['balance'] = userdata[0]['balance']
         if type(newdata['pin']) == str:
             newdata['pin'] = int(newdata['pin'])
+            
+        for i in newdata:
+            if newdata[i] == userdata[0][i]:
+                continue
