@@ -96,3 +96,7 @@ class Bank:
                 print("AMOUNT WITHDRWAL SUCCESSFULLY ")
 
 #widthdrawl close
+
+#details open
+    def details(self):
+        acc_num = input("PLEASE ENTER YOUR ACCOUNT NUMBER:- ")            
