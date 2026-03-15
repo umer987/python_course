@@ -46,3 +46,7 @@ class Bank:
         }
         if datai['age'] < 18 or len(str(datai['pin'])) != 4:
             print("SORRY YOU CANT CREATE ACCOUNT")
+        else:
+            print("ACCOUNT CREATED SUCCUSS FULLY")
+            Bank.data.append(datai)
+            Bank.__update()
