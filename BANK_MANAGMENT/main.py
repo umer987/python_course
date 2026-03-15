@@ -9,3 +9,6 @@ class Bank:
     database = 'data.json'
     data =[]
     try:
+        if Path(database).exists():
+            with open(database) as fs:
+                 data = json.loads(fs.read())
