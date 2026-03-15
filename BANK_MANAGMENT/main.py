@@ -103,3 +103,9 @@ class Bank:
         acc_pin = int(input("PLEASE ENTER 4 DIGIT PIN:- "))
         user_info = [i for i in Bank.data if i['accountNo.'] == acc_num and i['pin'] == acc_pin]
         for i in user_info[0]:
+            print(f"{i} : {user_info[0][i]}")
+
+#details close
+
+#update details open
+
