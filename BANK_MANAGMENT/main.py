@@ -29,3 +29,5 @@ class Bank:
     @classmethod
     def __accountgenrate(cls):
         alp = random.choices(string.ascii_letters,k=4)
+        num = random.choices(string.digits, k=4)
+        spcchar = random.choices("!@#$%^&*",k=1)
