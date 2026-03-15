@@ -93,3 +93,6 @@ class Bank:
             else:
                 user_data[0]['balance'] -= amount
                 Bank.__update()
+                print("AMOUNT WITHDRWAL SUCCESSFULLY ")
+
+#widthdrawl close
