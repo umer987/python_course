@@ -53,3 +53,7 @@ class Bank:
         for i in datai:
             print(f"{i} {datai[i]}")    
         print("PLEASE NOTE DOWN YOUR ACCOUNT NUMBER")
+
+#create account close        
+    
+#deposite money
