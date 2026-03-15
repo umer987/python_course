@@ -186,3 +186,5 @@ elif check == 3:
     user.withdrwal()
 elif check == 4:
     user.details()
+elif check == 5:
+    user.update_details()
