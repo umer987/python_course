@@ -100,3 +100,6 @@ class Bank:
 #details open
     def details(self):
         acc_num = input("PLEASE ENTER YOUR ACCOUNT NUMBER:- ")            
+        acc_pin = int(input("PLEASE ENTER 4 DIGIT PIN:- "))
+        user_info = [i for i in Bank.data if i['accountNo.'] == acc_num and i['pin'] == acc_pin]
+        for i in user_info[0]:
