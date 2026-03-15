@@ -41,3 +41,5 @@ class Bank:
             "age":int(input("YOUR AGE:- ")),
             "email":input("YOUR EMAIL:- "),
             "pin":int(input("YOUR PIN:- ")),
+            "accountNo.":Bank.__accountgenrate(),
+            "balance":0
