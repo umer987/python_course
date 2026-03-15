@@ -86,3 +86,6 @@ class Bank:
         if user_data == False:
             print("ACCOUNT NOT FETCH")
         else:
+            amount = int(input("how much you want to depoit "))
+            if amount > user_data[0]['balance']:
+                print("TRANSCTION INCOMPLETE DUE INSUFFICENT BALANCE")
