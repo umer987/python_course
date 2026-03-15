@@ -57,3 +57,8 @@ class Bank:
 #create account close        
     
 #deposite money
+
+    def deposite(self):
+        acc_num = input("PLEASE ENTER YOUR ACCOUNT NUMBER:- ")            
+        acc_pin = int(input("PLEASE ENTER 4 DIGIT PIN:- "))
+        user_data = [i for i in Bank.data if i['accountNo.'] == acc_num and i['pin'] == acc_pin]            
