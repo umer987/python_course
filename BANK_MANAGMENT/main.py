@@ -33,3 +33,4 @@ class Bank:
         spcchar = random.choices("!@#$%^&*",k=1)
         acc_id = num + alp + spcchar
         random.shuffle(acc_id)
+        return "".join(acc_id)
