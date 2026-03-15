@@ -151,3 +151,7 @@ class Bank:
         pin = int(input("please tell your pin aswell "))
 
         userdata = [i for i in Bank.data if i['accountNo.'] == accnumber and i['pin'] == pin]
+
+        if userdata == False:
+            print("sorry no such data exist ")
+        else:
