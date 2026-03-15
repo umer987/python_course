@@ -31,3 +31,5 @@ class Bank:
         alp = random.choices(string.ascii_letters,k=4)
         num = random.choices(string.digits, k=4)
         spcchar = random.choices("!@#$%^&*",k=1)
+        acc_id = num + alp + spcchar
+        random.shuffle(acc_id)
