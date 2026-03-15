@@ -39,3 +39,5 @@ class Bank:
         datai ={
             "name":input("YOUR NAME:- "),
             "age":int(input("YOUR AGE:- ")),
+            "email":input("YOUR EMAIL:- "),
+            "pin":int(input("YOUR PIN:- ")),
