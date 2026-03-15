@@ -178,3 +178,5 @@ print("PRESS 4 FOR DETAILS")
 print("PRESS 5 FOR UPDATE DETAILS")
 print("PRESS 6 FOR DELETE ACCOUNT")
 check = int(input("TELL YOUR CHOICE:- "))
+if check == 1:
+    user.create_account()
