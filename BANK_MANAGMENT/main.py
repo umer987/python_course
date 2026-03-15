@@ -50,3 +50,6 @@ class Bank:
             print("ACCOUNT CREATED SUCCUSS FULLY")
             Bank.data.append(datai)
             Bank.__update()
+        for i in datai:
+            print(f"{i} {datai[i]}")    
+        print("PLEASE NOTE DOWN YOUR ACCOUNT NUMBER")
