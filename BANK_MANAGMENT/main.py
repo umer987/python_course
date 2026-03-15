@@ -16,3 +16,12 @@ class Bank:
             print("NO SUCH FILE EXISTS")
     except Exception as err:
         print(f"THERE IS AN ERROR {err}")
+
+
+
+
+
+    @classmethod
+    def __update(cls):
+        with open(cls.database,'w') as fs:
+            fs.write(json.dumps(Bank.data))
