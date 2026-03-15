@@ -189,4 +189,4 @@ elif check == 4:
 elif check == 5:
     user.update_details()
 elif check == 6:
-    
+    user.delete()
