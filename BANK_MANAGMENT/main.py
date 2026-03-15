@@ -180,3 +180,5 @@ print("PRESS 6 FOR DELETE ACCOUNT")
 check = int(input("TELL YOUR CHOICE:- "))
 if check == 1:
     user.create_account()
+elif check ==2:
+    user.deposite()
