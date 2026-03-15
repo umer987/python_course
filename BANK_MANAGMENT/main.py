@@ -89,3 +89,7 @@ class Bank:
             amount = int(input("how much you want to depoit "))
             if amount > user_data[0]['balance']:
                 print("TRANSCTION INCOMPLETE DUE INSUFFICENT BALANCE")
+
+            else:
+                user_data[0]['balance'] -= amount
+                Bank.__update()
