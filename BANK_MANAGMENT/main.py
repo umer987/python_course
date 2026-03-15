@@ -144,3 +144,7 @@ class Bank:
         print("DETAILS UPDATE SUCCESSFULLY")
 
 #update details close 
+
+#delete open
+    def delete(self):
+        accnumber = input("please tell your account number ")
