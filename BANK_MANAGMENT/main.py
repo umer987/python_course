@@ -109,3 +109,7 @@ class Bank:
 
 #update details open
 
+    
+    def update_details(self):
+        acc_num = input("PLEASE ENTER YOUR ACCOUNT NUMBER:- ")            
+        acc_pin = int(input("PLEASE ENTER 4 DIGIT PIN:- "))
