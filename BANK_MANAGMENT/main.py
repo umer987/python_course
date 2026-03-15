@@ -138,3 +138,6 @@ class Bank:
         for i in newdata:
             if newdata[i] == userdata[0][i]:
                 continue
+            else:
+                userdata[0][i] = newdata[i] 
+        Bank.__update()
