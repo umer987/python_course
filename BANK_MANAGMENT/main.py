@@ -116,3 +116,7 @@ class Bank:
         userdata = [i for i in Bank.data if i['accountNo.'] == acc_num and i['pin'] == acc_pin]
         print("ENTER UPDATED DETAILS OR JUST PRESS ENTER TO LEVE IT AS IT IS")
         newdata ={
+            "name":input("YOUR NAME:- "),
+            "age":int(input("YOUR AGE:- ")),
+            "email":input("YOUR EMAIL:- "),
+            "pin":input("YOUR PIN:- "),
