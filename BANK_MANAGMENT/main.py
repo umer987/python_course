@@ -141,3 +141,6 @@ class Bank:
             else:
                 userdata[0][i] = newdata[i] 
         Bank.__update()
+        print("DETAILS UPDATE SUCCESSFULLY")
+
+#update details close 
