@@ -25,3 +25,7 @@ class Bank:
     def __update(cls):
         with open(cls.database,'w') as fs:
             fs.write(json.dumps(Bank.data))
+
+    @classmethod
+    def __accountgenrate(cls):
+        alp = random.choices(string.ascii_letters,k=4)
