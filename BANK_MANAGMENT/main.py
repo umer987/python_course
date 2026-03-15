@@ -74,3 +74,9 @@ class Bank:
                 user_data[0]['balance'] += amount
                 Bank.__update()
                 print("Amount deposited successfully ")
+
+#deposite account close
+
+#withdrwal open
+    def withdrwal(self):
+        acc_num = input("PLEASE ENTER YOUR ACCOUNT NUMBER:- ")            
