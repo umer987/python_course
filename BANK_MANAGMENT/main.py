@@ -188,3 +188,5 @@ elif check == 4:
     user.details()
 elif check == 5:
     user.update_details()
+elif check == 6:
+    
