@@ -1,4 +1,4 @@
-mcmtgvqinnnh=huyhiojhpp000
+mcmtgvqinnnh=huyhiojhpp00
 MOOD PET - Your Digital Emotional Companion
 A simple, interactive pet that responds to your actions with different moods
 """
