@@ -5,7 +5,7 @@
 
 
 
-        self.age = 0
+
         
     def get_mood(self):
         """Determine pet's mood based on stats"""
