@@ -4,7 +4,7 @@
 
 
 
-    def __init__(self, name):
+
         self.name = name
         self.hunger = 50
         self.happiness = 50
