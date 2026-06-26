@@ -5,8 +5,6 @@
 
 
 
-        self.happiness = 50
-        self.energy = 50
         self.age = 0
         
     def get_mood(self):
