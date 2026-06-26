@@ -2,8 +2,6 @@
 
 
 
-import time
-import random
 
 class MoodPet:
     def __init__(self, name):
