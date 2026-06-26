@@ -3,7 +3,7 @@
 
 
 
-class MoodPet:
+
     def __init__(self, name):
         self.name = name
         self.hunger = 50
