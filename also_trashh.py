@@ -15,7 +15,8 @@ class ContactManager:
         self.filename = filename
         self.contacts = self.load_contacts()
     
-     
+       elif choice == '4':
+            name = input("Enter name to de
         elif choice == '3':
             name = input("Enter name to search: ")
             manager.search_contact(name)
