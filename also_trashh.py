@@ -4,6 +4,12 @@ import os
 import json
 import os
 
+def load_contacts(self):
+        """Load contacts from JSON file"""
+        if os.path.exists(self.filename):
+            with open(self.filename, 'r') as file:
+                return json.load(file)
+        return {}
 class ContactManager:
     def __init__(self, filename="contacts.json"):
         self.filename = filename
