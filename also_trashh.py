@@ -16,7 +16,7 @@ class ContactManager:
         self.contacts = self.load_contacts()
     
        elif choice == '4':
-            name = input("Enter name to de
+            name = input("Enter name to de  manager.delete_contact(name)
         elif choice == '3':
             name = input("Enter name to search: ")
             manager.search_contact(name)
