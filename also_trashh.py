@@ -28,7 +28,15 @@ class ContactManager:
         self.save_contacts()
         print(f"✅ Contact '{name}' added successfully!")
 
-        
+ 
+    def view_contacts(self):
+        """Display all contacts"""
+        if not self.contacts:
+            print("📭 No contacts found.")
+            return
+        print("\n📋 Your Contact
+
+              
     def get_mood(self):
         """Determine pet's mood based on stats"""
         if self.happiness > 70 and self.energy > 60:
