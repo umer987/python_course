@@ -15,7 +15,10 @@ class ContactManager:
         self.filename = filename
         self.contacts = self.load_contacts()
     
-
+     
+        elif choice == '3':
+            name = input("Enter name to search: ")
+            manager.search_contact(name)
  def save_contacts(self):
         """Save contacts to JSON file"""
         with open(self.filename, 'w') as file:
