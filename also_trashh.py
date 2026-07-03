@@ -1,7 +1,6 @@
 
 
             with open(self.filename, 'r') as file:
-                return json.load(file)
         return {}
 class ContactManager:
     def __init__(self, filename="contacts.json"):
