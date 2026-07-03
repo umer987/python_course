@@ -1,6 +1,5 @@
 
 
-\        return {}
 class ContactManager:
     def __init__(self, filename="contacts.json"):
         self.filename = filename
