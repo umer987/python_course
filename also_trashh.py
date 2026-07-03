@@ -1,7 +1,6 @@
 
 
         """Load contacts from JSON file"""
-        if os.path.exists(self.filename):
             with open(self.filename, 'r') as file:
                 return json.load(file)
         return {}
