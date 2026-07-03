@@ -1,7 +1,6 @@
 
 
 import json
-import os
 
 def load_contacts(self):
         """Load contacts from JSON file"""
