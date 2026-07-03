@@ -1,6 +1,5 @@
 
 
-        """Load contacts from JSON file"""
             with open(self.filename, 'r') as file:
                 return json.load(file)
         return {}
