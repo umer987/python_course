@@ -1,12 +1,6 @@
 
 
-    
 
-    def add_contact(self, name, phone, email):
-        """Add a new contact"""
-        self.contacts[name] = {'phone': phone, 'email': email}
-        self.save_contacts()
-        print(f"✅ Contact '{name}' added successfully!")
 
  
     def view_contacts(self):
