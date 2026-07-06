@@ -1,5 +1,4 @@
 
-            manager.search_contact(name)
  def save_contacts(self):
         """Save contacts to JSON file"""
         with open(self.filename, 'w') as file:
