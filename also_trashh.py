@@ -1,11 +1,4 @@
 
-
-
-
-
-
-              
-        """Determine pet's mood based on stats"""
         if self.happiness > 70 and self.energy > 60:
             return "😄 HAPPY"
         elif self.hunger > 80:
