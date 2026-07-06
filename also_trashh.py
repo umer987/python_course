@@ -2,13 +2,7 @@
 
 
 
- 
-    def view_contacts(self):
-        """Display all contacts"""
-        if not self.contacts:
-            print("📭 No contacts found.")
-            return
-        print("\n📋 Your Contact
+
 
               
     def get_mood(self):
