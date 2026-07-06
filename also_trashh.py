@@ -1,5 +1,4 @@
 
-            name = input("Enter name to de  manager.delete_contact(name)
         elif choice == '3':
             name = input("Enter name to search: ")
             manager.search_contact(name)
