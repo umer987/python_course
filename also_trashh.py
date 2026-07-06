@@ -1,9 +1,4 @@
 
-            return "😢 SAD"
-        elif self.happiness > 80:
-            return "🎉 EXCITED"
-        else:
-            return "😐 NEUTRAL"
     
     def show_status(self):
         """Display pet's current status with emojis"""
