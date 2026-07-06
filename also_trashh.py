@@ -1,5 +1,4 @@
 
-        elif self.happiness < 30:
             return "😢 SAD"
         elif self.happiness > 80:
             return "🎉 EXCITED"
