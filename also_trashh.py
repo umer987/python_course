@@ -1,5 +1,4 @@
 
-        elif self.energy < 30:
             return "😴 SLEEPY"
         elif self.happiness < 30:
             return "😢 SAD"
