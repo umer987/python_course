@@ -1,6 +1,5 @@
 
 
-    def __init__(self, filename="contacts.json"):
         self.filename = filename
         self.contacts = self.load_contacts()
     
