@@ -1,6 +1,5 @@
 
 
-        self.filename = filename
         self.contacts = self.load_contacts()
     
        elif choice == '4':
