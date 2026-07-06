@@ -1,8 +1,5 @@
 
- def save_contacts(self):
-        """Save contacts to JSON file"""
-        with open(self.filename, 'w') as file:
-            json.dump(self.contacts, file, indent=2)
+
     
 
     def add_contact(self, name, phone, email):
