@@ -1,6 +1,5 @@
 
 
-            return "😄 HAPPY"
         elif self.hunger > 80:
             return "😫 HUNGRY"
         elif self.energy < 30:
