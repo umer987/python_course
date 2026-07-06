@@ -5,7 +5,6 @@
 
 
               
-    def get_mood(self):
         """Determine pet's mood based on stats"""
         if self.happiness > 70 and self.energy > 60:
             return "😄 HAPPY"
