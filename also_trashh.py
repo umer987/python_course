@@ -1,5 +1,4 @@
 
-        elif choice == '3':
             name = input("Enter name to search: ")
             manager.search_contact(name)
  def save_contacts(self):
