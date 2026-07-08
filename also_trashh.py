@@ -1,10 +1,4 @@
 
-    
-    def show_status(self):
-        """Display pet's current status with emojis"""
-        mood = self.get_mood()
-        print(f"\n{'-'*30}")
-        print(f"🐾 {self.name} the Pet")
         print(f"{'-'*30}")
         print(f"Mood: {mood}")
         print(f"Hunger: {'🍖' * (self.hunger//10)} {self.hunger}%")
