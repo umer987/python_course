@@ -1,7 +1,4 @@
 
-        self.happiness = min(100, self.happiness + 10)
-        self.energy = min(100, self.energy + 5)
-        print(f"{self.name}: Yum! Thanks for the food!")
     
     def play(self):
         """Play with the pet"""
