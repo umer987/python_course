@@ -1,5 +1,4 @@
 
-        print(f"Hunger: {'🍖' * (self.hunger//10)} {self.hunger}%")
         print(f"Happiness: {'❤️' * (self.happiness//10)} {self.happiness}%")
         print(f"Energy: {'⚡' * (self.energy//10)} {self.energy}%")
         print(f"Age: {self.age} days")
