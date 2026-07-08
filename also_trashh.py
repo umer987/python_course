@@ -1,4 +1,133 @@
+import random
+import time
 
+class QuizGame:
+    def __init__(self):
+        self.questions = [
+            {
+                "question": "What is the capital of France?",
+                "options": ["A. London", "B. Paris", "C. Berlin", "D. Madrid"],
+                "answer": "B"
+            },
+            {
+                "question": "Which planet is known as the Red Planet?",
+                "options": ["A. Venus", "B. Jupiter", "C. Mars", "D. Saturn"],
+                "answer": "C"
+            },
+            {
+                "question": "What is the largest ocean on Earth?",
+                "options": ["A. Atlantic", "B. Indian", "C. Arctic", "D. Pacific"],
+                "answer": "D"
+            },
+            {
+                "question": "Who wrote 'Romeo and Juliet'?",
+                "options": ["A. Charles Dickens", "B. William Shakespeare", 
+                           "C. Mark Twain", "D. Jane Austen"],
+                "answer": "B"
+            },
+            {
+                "question": "What is the chemical symbol for water?",
+                "options": ["A. H2O", "B. CO2", "C. NaCl", "D. HCl"],
+                "answer": "A"
+            }
+        ]
+        self.score = 0
+        self.total_questions = len(self.questions)
+    
+    def shuffle_questions(self):
+        """Randomize question order"""
+        random.shuffle(self.questions)
+    
+    def display_welcome(self):
+        """Show welcome message"""
+        print("🎯 WELCOME TO THE QUIZ GAME!")
+        print("=" * 40)
+        print(f"Total Questions: {self.total_questions}")
+        print("Type A, B, C, or D to answer")
+        print("=" * 40)
+        time.sleep(1)
+    
+    def ask_question(self, q_data, q_num):
+        """Display and process a single question"""
+        print(f"\n❓ Question {q_num}/{self.total_questions}")
+        print(q_data["question"])
+        for option in q_data["options"]:
+            print(f"   {option}")
+        
+        while True:
+            user_answer = input("\nYour answer: ").upper().strip()
+            if user_answer in ['A', 'B', 'C', 'D']:
+                break
+            print("⚠️  Invalid input! Please enter A, B, C, or D.")
+        
+        if user_answer == q_data["answer"]:
+            print("✅ Correct! 🎉")
+            self.score += 1
+            return True
+        else:
+            print(f"❌ Wrong! The correct answer was {q_data['answer']}")
+            return False
+    
+    def display_results(self):
+        """Show final results"""
+        print("\n" + "=" * 40)
+        print("📊 QUIZ COMPLETED!")
+        print("=" * 40)
+        print(f"✅ Correct Answers: {self.score}")
+        print(f"❌ Wrong Answers: {self.total_questions - self.score}")
+        percentage = (self.score / self.total_questions) * 100
+        print(f"📈 Score: {percentage:.1f}%")
+        
+        # Grade based on performance
+        if percentage >= 90:
+            print("🏆 Grade: A+ (Excellent!)")
+        elif percentage >= 80:
+            print("🌟 Grade: A (Great job!)")
+        elif percentage >= 70:
+            print("👍 Grade: B (Good work!)")
+        elif percentage >= 60:
+            print("📖 Grade: C (Keep practicing!)")
+        else:
+            print("💪 Grade: D (Better luck next time!)")
+    
+    def play_again(self):
+        """Ask if user wants to play again"""
+        while True:
+            choice = input("\nPlay again? (yes/no): ").lower().strip()
+            if choice in ['yes', 'y']:
+                return True
+            elif choice in ['no', 'n']:
+                return False
+            print("⚠️  Please enter 'yes' or 'no'.")
+
+    def run(self):
+        """Main game loop"""
+        playing = True
+        
+        while playing:
+            self.score = 0
+            self.shuffle_questions()
+            self.display_welcome()
+            
+            # Ask each question
+            for i, question in enumerate(self.questions, 1):
+                self.ask_question(question, i)
+                time.sleep(0.5)
+            
+            # Show results
+            self.display_results()
+            
+            # Ask to play again
+            playing = self.play_again()
+        
+        print("\n👋 Thanks for playing! Goodbye!")
+
+def main():
+    game = QuizGame()
+    game.run()
+
+if __name__ == "__main__":
+    main()
         
         print(f"\n🎾 You play with {self.name}...")
         self.happiness = min(100, self.happiness + 25)
