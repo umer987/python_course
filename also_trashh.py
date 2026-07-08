@@ -1,8 +1,4 @@
 
-    
-
-            print(f"\n😴 {self.name} is too tired to play!")
-            return
         
         print(f"\n🎾 You play with {self.name}...")
         self.happiness = min(100, self.happiness + 25)
