@@ -1,5 +1,4 @@
 
-        print(f"Energy: {'⚡' * (self.energy//10)} {self.energy}%")
         print(f"Age: {self.age} days")
         print(f"{'-'*30}")
     
