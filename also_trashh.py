@@ -1,8 +1,4 @@
 
-    def feed(self):
-        """Feed the pet"""
-        print(f"\n🍕 You feed {self.name}...")
-        self.hunger = max(0, self.hunger - 30)
         self.happiness = min(100, self.happiness + 10)
         self.energy = min(100, self.energy + 5)
         print(f"{self.name}: Yum! Thanks for the food!")
