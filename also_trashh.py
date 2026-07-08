@@ -1,8 +1,6 @@
 
     
-    def play(self):
-        """Play with the pet"""
-        if self.energy < 20:
+
             print(f"\n😴 {self.name} is too tired to play!")
             return
         
