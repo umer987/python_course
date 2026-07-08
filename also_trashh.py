@@ -1,7 +1,4 @@
 
-        print(f"Age: {self.age} days")
-        print(f"{'-'*30}")
-    
     def feed(self):
         """Feed the pet"""
         print(f"\n🍕 You feed {self.name}...")
