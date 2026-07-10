@@ -1,10 +1,4 @@
 
-            {
-                "question": "What is the chemical symbol for water?",
-                "options": ["A. H2O", "B. CO2", "C. NaCl", "D. HCl"],
-                "answer": "A"
-            }
-        ]
         self.score = 0
         self.total_questions = len(self.questions)
     
