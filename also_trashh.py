@@ -1,8 +1,4 @@
-
-        self.score = 0
-        self.total_questions = len(self.questions)
-    
-    def shuffle_questions(self):
+def shuffle_questions(self):
         """Randomize question order"""
         random.shuffle(self.questions)
     
