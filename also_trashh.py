@@ -1,10 +1,5 @@
 
             {
-                "question": "Which planet is known as the Red Planet?",
-                "options": ["A. Venus", "B. Jupiter", "C. Mars", "D. Saturn"],
-                "answer": "C"
-            },
-            {
                 "question": "What is the largest ocean on Earth?",
                 "options": ["A. Atlantic", "B. Indian", "C. Arctic", "D. Pacific"],
                 "answer": "D"
