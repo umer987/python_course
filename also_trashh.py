@@ -1,8 +1,5 @@
 
 
-class QuizGame:
-    def __init__(self):
-        self.questions = [
             {
                 "question": "What is the capital of France?",
                 "options": ["A. London", "B. Paris", "C. Berlin", "D. Madrid"],
