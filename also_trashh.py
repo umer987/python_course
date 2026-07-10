@@ -1,10 +1,5 @@
 
             {
-                "question": "What is the largest ocean on Earth?",
-                "options": ["A. Atlantic", "B. Indian", "C. Arctic", "D. Pacific"],
-                "answer": "D"
-            },
-            {
                 "question": "Who wrote 'Romeo and Juliet'?",
                 "options": ["A. Charles Dickens", "B. William Shakespeare", 
                            "C. Mark Twain", "D. Jane Austen"],
