@@ -1,14 +1,5 @@
 
     
-    def display_welcome(self):
-        """Show welcome message"""
-        print("🎯 WELCOME TO THE QUIZ GAME!")
-        print("=" * 40)
-        print(f"Total Questions: {self.total_questions}")
-        print("Type A, B, C, or D to answer")
-        print("=" * 40)
-        time.sleep(1)
-    
     def ask_question(self, q_data, q_num):
         """Display and process a single question"""
         print(f"\n❓ Question {q_num}/{self.total_questions}")
