@@ -1,6 +1,4 @@
-def shuffle_questions(self):
-        """Randomize question order"""
-        random.shuffle(self.questions)
+
     
     def display_welcome(self):
         """Show welcome message"""
