@@ -1,6 +1,4 @@
 
-        print("\n" + "=" * 40)
-        print("📊 QUIZ COMPLETED!")
         print("=" * 40)
         print(f"✅ Correct Answers: {self.score}")
         print(f"❌ Wrong Answers: {self.total_questions - self.score}")
