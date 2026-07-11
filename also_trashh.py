@@ -1,7 +1,5 @@
 
-        
-        while True:
-            user_answer = input("\nYour answer: ").upper().strip()
+
             if user_answer in ['A', 'B', 'C', 'D']:
                 break
             print("⚠️  Invalid input! Please enter A, B, C, or D.")
