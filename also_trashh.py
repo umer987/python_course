@@ -1,8 +1,5 @@
 
         
-        for option in q_data["options"]:
-            print(f"   {option}")
-        
         while True:
             user_answer = input("\nYour answer: ").upper().strip()
             if user_answer in ['A', 'B', 'C', 'D']:
