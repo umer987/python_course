@@ -1,6 +1,5 @@
 
-        print(f"\n❓ Question {q_num}/{self.total_questions}")
-        print(q_data["question"])
+        
         for option in q_data["options"]:
             print(f"   {option}")
         
