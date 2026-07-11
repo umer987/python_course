@@ -1,11 +1,4 @@
 
-          
-            self.score += 1
-            return True
-        else:
-            print(f"❌ Wrong! The correct answer was {q_data['answer']}")
-            return False
-    
     def display_results(self):
         """Show final results"""
         print("\n" + "=" * 40)
