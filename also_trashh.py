@@ -1,11 +1,5 @@
 
-
-            if user_answer in ['A', 'B', 'C', 'D']:
-                break
-            print("⚠️  Invalid input! Please enter A, B, C, or D.")
-        
-        if user_answer == q_data["answer"]:
-            print("✅ Correct! 🎉")
+          
             self.score += 1
             return True
         else:
