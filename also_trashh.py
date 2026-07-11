@@ -1,6 +1,4 @@
 
-    def display_results(self):
-        """Show final results"""
         print("\n" + "=" * 40)
         print("📊 QUIZ COMPLETED!")
         print("=" * 40)
