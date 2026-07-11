@@ -1,6 +1,4 @@
 
-        print("=" * 40)
-        print(f"✅ Correct Answers: {self.score}")
         print(f"❌ Wrong Answers: {self.total_questions - self.score}")
         percentage = (self.score / self.total_questions) * 100
         print(f"📈 Score: {percentage:.1f}%")
