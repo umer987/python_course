@@ -1,7 +1,4 @@
 
-    
-    def ask_question(self, q_data, q_num):
-        """Display and process a single question"""
         print(f"\n❓ Question {q_num}/{self.total_questions}")
         print(q_data["question"])
         for option in q_data["options"]:
