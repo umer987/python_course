@@ -1,5 +1,4 @@
 
-        elif percentage >= 60:
             print("📖 Grade: C (Keep practicing!)")
         else:
             print("💪 Grade: D (Better luck next time!)")
