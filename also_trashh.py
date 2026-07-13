@@ -1,7 +1,4 @@
 
-
-        
-        # Grade based on performance
         if percentage >= 90:
             print("🏆 Grade: A+ (Excellent!)")
         elif percentage >= 80:
