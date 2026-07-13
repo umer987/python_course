@@ -1,5 +1,4 @@
 
-            print("🏆 Grade: A+ (Excellent!)")
         elif percentage >= 80:
             print("🌟 Grade: A (Great job!)")
         elif percentage >= 70:
