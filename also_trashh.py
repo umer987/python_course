@@ -1,5 +1,4 @@
 
-        print(f"❌ Wrong Answers: {sel}")
 
         
         # Grade based on performance
