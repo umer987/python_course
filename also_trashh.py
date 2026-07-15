@@ -1,5 +1,4 @@
 
-            if choice in ['yes', 'y']:
                 return True
             elif choice in ['no', 'n']:
                 return False
