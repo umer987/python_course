@@ -1,6 +1,5 @@
 
-    
-    def play_again(self):
+  
         """Ask if user wants to play again"""
         while True:
             choice = input("\nPlay again? (yes/no): ").lower().strip()
