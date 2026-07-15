@@ -1,5 +1,4 @@
 
-        while True:
             choice = input("\nPlay again? (yes/no): ").lower().strip()
             if choice in ['yes', 'y']:
                 return True
