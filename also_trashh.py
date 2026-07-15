@@ -1,6 +1,4 @@
 
-        else:
-            print("💪 Grade: D (Better luck next time!)")
     
     def play_again(self):
         """Ask if user wants to play again"""
