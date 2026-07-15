@@ -1,7 +1,5 @@
 
-                return True
-            elif choice in ['no', 'n']:
-                return False
+                retu
             print("⚠️  Please enter 'yes' or 'no'.")
 
     def run(self):
