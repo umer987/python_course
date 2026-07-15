@@ -1,6 +1,4 @@
 
-            print("⚠️  Please enter 'yes' or 'no'.")
-
     def run(self):
         """Main game loop"""
         playing = True
