@@ -1,7 +1,4 @@
 
-        """Main game loop"""
-        playing = True
-        
         while playing:
             self.score = 0
             self.shuffle_questions()
