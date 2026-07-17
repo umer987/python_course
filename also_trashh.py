@@ -1,7 +1,4 @@
 
-            
-            # Ask each question
-            for i, question in enumerate(self.questions, 1):
                 self.ask_question(question, i)
                 time.sleep(0.5)
             
