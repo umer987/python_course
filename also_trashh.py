@@ -1,8 +1,4 @@
 
-
-
-def main():
-    game = QuizGame()
     game.run()
 
 if __name__ == "__main__":
