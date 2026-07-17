@@ -1,8 +1,4 @@
 
-
-            
-            # Ask to play again
-            playing = self.play_again()
         
         print("\n👋 Thanks for playing! Goodbye!")
 
