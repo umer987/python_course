@@ -1,7 +1,5 @@
 
-            
-            # Show results
-            self.display_results()
+
             
             # Ask to play again
             playing = self.play_again()
