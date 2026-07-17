@@ -1,6 +1,4 @@
 
-            self.shuffle_questions()
-            self.display_welcome()
             
             # Ask each question
             for i, question in enumerate(self.questions, 1):
