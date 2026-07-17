@@ -1,6 +1,5 @@
 
-        
-        print("\n👋 Thanks for playing! Goodbye!")
+
 
 def main():
     game = QuizGame()
