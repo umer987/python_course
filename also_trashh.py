@@ -1,6 +1,4 @@
 
-                self.ask_question(question, i)
-                time.sleep(0.5)
             
             # Show results
             self.display_results()
