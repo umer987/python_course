@@ -1,8 +1,4 @@
 
-    game.run()
-
-if __name__ == "__main__":
-    main()
         
         print(f"\n🎾 You play with {self.name}...")
         self.happiness = min(100, self.happiness + 25)
