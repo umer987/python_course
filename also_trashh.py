@@ -2,8 +2,7 @@
         
 
            
-          self.happiness = max(0, self.happiness - 5)
-        print(f"{self.name}: *Yawn* That was a good nap!")
+             print(f"{self.name}: *Yawn* That was a good nap!")
     
     def give_gift(self):
         """Give a random gift to the pet"""
