@@ -2,8 +2,7 @@
         
 
            
-         self.energy = min(100, self.energy + 40)
-        self.happiness = max(0, self.happiness - 5)
+          self.happiness = max(0, self.happiness - 5)
         print(f"{self.name}: *Yawn* That was a good nap!")
     
     def give_gift(self):
