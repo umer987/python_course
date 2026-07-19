@@ -1,8 +1,7 @@
 
         
 
-           print(f"{self.name}: That was fun! Let's play again!")
-    
+           
     def sleep(self):
         """Put the pet to sleep"""
         print(f"\n💤 {self.name} goes to sleep...")
