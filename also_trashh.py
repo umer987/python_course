@@ -1,7 +1,6 @@
 
         
-        print(f"\n🎾 You play with {self.name}...")
-        self.happiness = min(100, self.happiness + 25)
+             self.happiness = min(100, self.happiness + 25)
         self.energy = max(0, self.energy - 20)
         self.hunger = min(100, self.hunger + 15)
         print(f"{self.name}: That was fun! Let's play again!")
