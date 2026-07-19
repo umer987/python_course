@@ -2,7 +2,6 @@
         
 
            
-      """  print(f"\n💤 {self.name} goes to sleep...")
         time.sleep(2)
         self.energy = min(100, self.energy + 40)
         self.happiness = max(0, self.happiness - 5)
