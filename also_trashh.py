@@ -1,8 +1,7 @@
 
         
 
-         self.hunger = min(100, self.hunger + 15)
-        print(f"{self.name}: That was fun! Let's play again!")
+           print(f"{self.name}: That was fun! Let's play again!")
     
     def sleep(self):
         """Put the pet to sleep"""
