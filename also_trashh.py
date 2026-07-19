@@ -2,8 +2,7 @@
         
 
            
-    def sleep(self):
-        """Put the pet to sleep"""
+      """Put the pet to sleep"""
         print(f"\n💤 {self.name} goes to sleep...")
         time.sleep(2)
         self.energy = min(100, self.energy + 40)
