@@ -1,6 +1,4 @@
 
-        
-        """Give a random gift to the pet"""
         gifts = ["🎈 balloon", "🧸 teddy bear", "🎮 video game", 
                 "🦴 bone", "🐟 fish", "🏀 ball"]
         gift = random.choice(gifts)
