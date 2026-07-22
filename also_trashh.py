@@ -1,6 +1,4 @@
 
-        gifts = ["🎈 balloon", "🧸 teddy bear", "🎮 video game", 
-                "🦴 bone", "🐟 fish", "🏀 ball"]
         gift = random.choice(gifts)
         print(f"\n🎁 You give {self.name} a {gift}!")
         
