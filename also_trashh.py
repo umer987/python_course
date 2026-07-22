@@ -1,10 +1,5 @@
 
         
-
-           
-             print(f"{self.name}: *Yawn* That was a good nap!")
-    
-    def give_gift(self):
         """Give a random gift to the pet"""
         gifts = ["🎈 balloon", "🧸 teddy bear", "🎮 video game", 
                 "🦴 bone", "🐟 fish", "🏀 ball"]
