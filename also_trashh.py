@@ -1,8 +1,4 @@
 
-    
-    def time_passes(self):
-        """Simulate time passing"""
-        self.hunger = min(100, self.hunger + 5)
         self.happiness = max(0, self.happiness - 3)
         self.energy = max(0, self.energy - 2)
         self.age += 1
