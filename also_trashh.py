@@ -1,7 +1,4 @@
 
-        self.age += 1
-        
-        # Random events
         if random.random() < 0.1:  # 10% chance of special event
             events = [
                 (self.happiness + 10, f"✨ {self.name} found a sparkly toy!"),
