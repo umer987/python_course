@@ -1,7 +1,4 @@
 
-        gift = random.choice(gifts)
-        print(f"\n🎁 You give {self.name} a {gift}!")
-        
         if random.random() > 0.3:  # 70% chance they like it
             self.happiness = min(100, self.happiness + 20)
             print(f"{self.name}: I love it! Thank you!")
