@@ -1,7 +1,4 @@
 
-        if random.random() > 0.3:  # 70% chance they like it
-            self.happiness = min(100, self.happiness + 20)
-            print(f"{self.name}: I love it! Thank you!")
         else:
             self.happiness = max(0, self.happiness - 5)
             print(f"{self.name}: Hmm... not really my thing...")
