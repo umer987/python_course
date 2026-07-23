@@ -1,8 +1,7 @@
 
       
 
-            else:
-                self.happiness = max(0, self.happiness + effect)
+
                 
             print(f"\n{message}")
 
