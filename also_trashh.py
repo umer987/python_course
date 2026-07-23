@@ -1,5 +1,5 @@
 
-        if random.random() < 0.1:  # 10% chance of special event
+      
             events = [
                 (self.happiness + 10, f"✨ {self.name} found a sparkly toy!"),
                 (self.hunger - 5, f"🌧️ {self.name} found some food!"),
