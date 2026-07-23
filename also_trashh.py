@@ -1,11 +1,6 @@
 
       
-            events = [
-                (self.happiness + 10, f"✨ {self.name} found a sparkly toy!"),
-                (self.hunger - 5, f"🌧️ {self.name} found some food!"),
-                (self.energy + 10, f"🌈 {self.name} feels energized!"),
-                (self.happiness - 5, f"☔ {self.name} got wet in the rain...")
-            ]
+      
             effect, message = random.choice(events)
             
             if effect > 0:
