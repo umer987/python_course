@@ -1,10 +1,6 @@
 
       
-      
-            effect, message = random.choice(events)
-            
-            if effect > 0:
-                self.happiness = min(100, self.happiness + effect)
+
             else:
                 self.happiness = max(0, self.happiness + effect)
                 
