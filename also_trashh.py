@@ -1,7 +1,4 @@
 
-        else:
-            self.happiness = max(0, self.happiness - 5)
-            print(f"{self.name}: Hmm... not really my thing...")
     
     def time_passes(self):
         """Simulate time passing"""
