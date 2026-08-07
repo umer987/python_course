@@ -1,10 +1,5 @@
 
         
-        choice = input("\nYour choice (1-6): ").strip()
-        
-        if choice == '1':
-            pet.feed()
-        elif choice == '2':
             pet.play()
         elif choice == '3':
             pet.sleep()
