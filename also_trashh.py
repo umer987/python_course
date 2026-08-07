@@ -1,12 +1,4 @@
 
-    while True:
-        pet.show_status()
-        
-        # Check if pet is too unhappy
-        if pet.happiness <= 0:
-            print(f"\n💔 {pet.name} has run away... Game Over!")
-            break
-        
         print("\nWhat would you like to do?")
         print("1. 🍕 Feed")
         print("2. 🎾 Play")
