@@ -1,11 +1,4 @@
 
-        print("\nWhat would you like to do?")
-        print("1. 🍕 Feed")
-        print("2. 🎾 Play")
-        print("3. 💤 Sleep")
-        print("4. 🎁 Give gift")
-        print("5. ⏰ Let time pass")
-        print("6. 👋 Quit")
         
         choice = input("\nYour choice (1-6): ").strip()
         
