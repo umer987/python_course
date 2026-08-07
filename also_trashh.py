@@ -1,11 +1,4 @@
 
-      
-
-
-                
-            print(f"\n{message}")
-
-def main():
     print("=" * 40)
     print("🌈 WELCOME TO MOOD PET! 🌈")
     print("Your digital emotional companion")
