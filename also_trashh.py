@@ -1,9 +1,4 @@
 
-    
-    # Name your pet
-    name = input("\nWhat would you like to name your pet? ").strip()
-    if not name:
-        name = "Buddy"
         print(f"Okay, we'll call your pet {name}!")
     
     pet = MoodPet(name)
