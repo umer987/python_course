@@ -1,9 +1,4 @@
 
-        print(f"Okay, we'll call your pet {name}!")
-    
-    pet = MoodPet(name)
-    
-    # Game loop
     while True:
         pet.show_status()
         
