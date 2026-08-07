@@ -1,8 +1,4 @@
 
-    print("=" * 40)
-    print("🌈 WELCOME TO MOOD PET! 🌈")
-    print("Your digital emotional companion")
-    print("=" * 40)
     
     # Name your pet
     name = input("\nWhat would you like to name your pet? ").strip()
