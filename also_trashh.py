@@ -1,10 +1,5 @@
 
 
-    def __init__(self, name, species):
-        self.name = name
-        self.species = species
-        self._age = 0
-    
     def speak(self):
         return f"{self.name} makes a sound"
     
