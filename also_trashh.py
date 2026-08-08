@@ -1,5 +1,4 @@
-# 100 Lines of Python - A Comprehensive Program
-# This program demonstrates various Python concepts and features
+
 
 import math
 import random
