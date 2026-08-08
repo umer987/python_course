@@ -1,10 +1,5 @@
 
 
-    def speak(self):
-        return f"{self.name} makes a sound"
-    
-    def get_age(self):
-        return self._age
     
     def set_age(self, age):
         if age >= 0:
