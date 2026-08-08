@@ -1,6 +1,3 @@
-
-            raise ValueError("Age cannot be negative")
-
 class Dog(Animal):
     """Dog class inheriting from Animal"""
     def __init__(self, name, breed):
