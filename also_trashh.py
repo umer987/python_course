@@ -1,6 +1,4 @@
 
-from collections import Counter, defaultdict
-from functools import reduce
 
 # ====== SECTION 1: CLASSES AND OBJECTS ======
 class Animal:
