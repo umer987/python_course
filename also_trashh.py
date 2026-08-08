@@ -1,10 +1,4 @@
 
-
-    
-    def set_age(self, age):
-        if age >= 0:
-            self._age = age
-        else:
             raise ValueError("Age cannot be negative")
 
 class Dog(Animal):
