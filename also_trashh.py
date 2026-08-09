@@ -1,5 +1,4 @@
-class Dog(A
-        super().__init__(name, "Canine")
+
         self.breed = breed
     
     def speak(self):
