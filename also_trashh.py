@@ -1,9 +1,5 @@
 
 
-        return f"{self.name} says Woof!"
-    
-    def fetch(self):
-        return f"{self.name} is fetching the ball"
 
 class Cat(Animal):
     """Cat class inheriting from Animal"""
