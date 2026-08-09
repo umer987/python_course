@@ -2,9 +2,7 @@
 
 # ====== SECTION 2: FUNCTIONS ======
 def fibonacci(n):
-    """Generate Fibonacci sequence up to n terms"""
-    if n <= 0:
-        return []
+    """Generat
     elif n == 1:
         return [0]
     elif n == 2:
