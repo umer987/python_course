@@ -1,8 +1,6 @@
 
 
 
-class Cat(Animal):
-    """Cat class inheriting from Animal"""
     def __init__(self, name, color):
         super().__init__(name, "Feline")
         self.color = color
