@@ -1,10 +1,5 @@
 
 
-
-    
-    def purr(self):
-        return f"{self.name} is purring"
-
 # ====== SECTION 2: FUNCTIONS ======
 def fibonacci(n):
     """Generate Fibonacci sequence up to n terms"""
