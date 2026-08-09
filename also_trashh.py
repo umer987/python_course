@@ -1,7 +1,5 @@
 
-        self.breed = breed
-    
-    def speak(self):
+
         return f"{self.name} says Woof!"
     
     def fetch(self):
