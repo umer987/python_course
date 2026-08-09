@@ -1,8 +1,6 @@
 
 
 
-    def __init__(self, name, color):
-        super(
     
     def speak(self):
         return f"{self.name} says Meow!"
