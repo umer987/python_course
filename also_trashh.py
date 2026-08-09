@@ -1,6 +1,4 @@
-class Dog(Animal):
-    """Dog class inheriting from Animal"""
-    def __init__(self, name, breed):
+class Dog(A
         super().__init__(name, "Canine")
         self.breed = breed
     
