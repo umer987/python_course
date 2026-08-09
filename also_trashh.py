@@ -2,9 +2,6 @@
 
 
     
-    def speak(self):
-        return f"{self.name} says Meow!"
-    
     def purr(self):
         return f"{self.name} is purring"
 
