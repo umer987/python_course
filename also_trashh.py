@@ -2,8 +2,7 @@
 
 
     def __init__(self, name, color):
-        super().__init__(name, "Feline")
-        self.color = color
+        super(
     
     def speak(self):
         return f"{self.name} says Meow!"
