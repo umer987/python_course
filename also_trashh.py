@@ -1,8 +1,6 @@
 
 
-# ====== SECTION 2: FUNCTIONS ======
-def fibonacci(n):
-    """Generat
+
     elif n == 1:
         return [0]
     elif n == 2:
