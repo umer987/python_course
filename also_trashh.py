@@ -1,8 +1,7 @@
 
 
 
-    elif n == 1:
-        return [0]
+    rn [0]
     elif n == 2:
         return [0, 1]
     
