@@ -8,8 +8,7 @@
 
 
     
-    vowels = 'aeiouAEIOU'
-    return sum(1 for char in text if char in vowels)
+    (1 for char in text if char in vowels)
 
 # ====== SECTION 3: DECORATORS ======
 def timer(func):
