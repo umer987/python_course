@@ -1,11 +1,5 @@
 
 
-
-# ====== SECTION 5: FILE OPERATIONS ======
-def file_operations():
-    """Demonstrate file operations"""
-    filename = "sample.txt"
-    
     # Write to file
     with open(filename, 'w') as f:
         f.write("Hello, Python!\n")
