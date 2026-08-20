@@ -2,9 +2,7 @@
 
 
     
-    for i in range(2, n):
-        fib.append(fib[i-1] + fib[i-2])
-    return fib
+    
 
 def is_prime(num):
     """Check if a number is prime"""
