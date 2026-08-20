@@ -4,14 +4,7 @@
     
     
 
-def is_prime(num):
-    """Check if a number is prime"""
-    if num < 2:
-        return False
-    for i in range(2, int(math.sqrt(num)) + 1):
-        if num % i == 0:
-            return False
-    return True
+
 
 def factorial(n):
     """Calculate factorial using recursion"""
