@@ -7,11 +7,7 @@
 
 
 
-    return n * factorial(n - 1)
-
-def reverse_string(s):
-    """Reverse a string using slicing"""
-    return s[::-1]
+    
 
 def count_vowels(text):
     """Count vowels in a string"""
