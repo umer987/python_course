@@ -2,10 +2,6 @@
 
 
     
-    # Counter example
-    
-    
-    # Default dict
     dd = defaultdict(list)
     dd['numbers'].append(1)
     dd['numbers'].append(2)
