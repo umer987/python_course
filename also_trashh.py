@@ -1,8 +1,6 @@
 
 
 
-    union = set1 | set2
-    intersection = set1 & set2
     
     # Counter example
     text = "hello world hello python"
