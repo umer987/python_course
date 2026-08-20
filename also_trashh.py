@@ -1,11 +1,4 @@
 
-(*args, **kwargs):
-        start = datetime.datetime.now()
-        result = func(*args, **kwargs)
-        end = datetime.datetime.now()
-        print(f"{func.__name__} took {end - start} seconds")
-        return result
-    return wrapper
 
 @timer
 def slow_function():
