@@ -3,8 +3,7 @@
 
     
     # Counter example
-    text = "hello world hello python"
-    word_count = Counter(text.split())
+    
     
     # Default dict
     dd = defaultdict(list)
