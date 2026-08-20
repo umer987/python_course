@@ -1,13 +1,7 @@
 
 
 
-# ====== SECTION 4: DATA STRUCTURES ======
-def demonstrate_collections():
-    """Show various collection operations"""
-    # List comprehensions
-    squares = [x**2 for x in range(10)]
-    evens = [x for x in range(20) if x % 2 == 0]
-    
+
     # Dictionary comprehensions
     square_dict = {x: x**2 for x in range(5)}
     
