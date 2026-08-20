@@ -1,19 +1,6 @@
 
 
 
-    
-    
-    
-    return {
-        'squares': squares,
-        'evens': evens,
-        'square_dict': square_dict,
-        'union': union,
-        'intersection': intersection,
-        'word_count': word_count,
-        'default_dict': dict(dd)
-    }
-
 # ====== SECTION 5: FILE OPERATIONS ======
 def file_operations():
     """Demonstrate file operations"""
