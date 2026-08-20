@@ -5,11 +5,6 @@
     
 
 
-
-
-    
-    
-# ====== SECTION 3: DECORATORS ======
 def timer(func):
     """Decorator to time function execution"""
     def wrapper(*args, **kwargs):
