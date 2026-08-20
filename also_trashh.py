@@ -1,7 +1,5 @@
 
-def timer(func):
-    """Decorator to time function execution"""
-    def wrapper(*args, **kwargs):
+(*args, **kwargs):
         start = datetime.datetime.now()
         result = func(*args, **kwargs)
         end = datetime.datetime.now()
