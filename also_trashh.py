@@ -1,11 +1,5 @@
 
 
-@timer
-def slow_function():
-    """Example function with timer decorator"""
-    import time
-    time.sleep(0.5)
-    return "Done"
 
 # ====== SECTION 4: DATA STRUCTURES ======
 def demonstrate_collections():
