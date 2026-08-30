@@ -1,6 +1,4 @@
 
-    print("\nCollections Demo:")
-    collections = demonstrate_collections()
     print(f"Squares: {collections['squares']}")
     print(f"Word Count: {collections['word_count']}")
     
