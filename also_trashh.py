@@ -1,11 +1,5 @@
 
     
-    # Test functions
-    print(f"\nFibonacci(10): {fibonacci(10)}")
-    print(f"Is 17 prime? {is_prime(17)}")
-    print(f"Is 20 prime? {is_prime(20)}")
-    print(f"Factorial(5): {factorial(5)}")
-    print(f"Reverse 'Python': {reverse_string('Python')}")
     print(f"Vowels in 'Hello World': {count_vowels('Hello World')}")
     
     # Collections
