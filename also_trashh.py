@@ -7,7 +7,7 @@ app.get("/",(req,res)=>{
 app.get('/about',(req,res)=>{
     res.send("HELLO FROM ABOUT")
 })
-app.listen(3000)
+app.listen(6000)
     print(f"Squares: {collections['squares']}")
     print(f"Word Count: {collections['word_count']}")
     
