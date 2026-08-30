@@ -1,13 +1,4 @@
 
-
-
-    
-    # Append to file
-    with open(filename, 'a') as f:
-        f.write("This is appended line\n")
-    
-    return content
-
 # ====== SECTION 6: EXCEPTION HANDLING ======
 def divide_safely(a, b):
     """Divide two numbers with error handling"""
