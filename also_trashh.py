@@ -1,8 +1,6 @@
 
 
-# ====== SECTION 8: MAIN EXECUTION ======
 
-    print("100 LINES PYTHON PROGRAM")
     print("=" * 50)
     
     # Create objects
