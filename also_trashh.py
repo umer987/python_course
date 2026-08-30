@@ -1,9 +1,7 @@
 
 
 # ====== SECTION 8: MAIN EXECUTION ======
-def main():
-    """Main function to run the program"""
-    print("=" * 50)
+
     print("100 LINES PYTHON PROGRAM")
     print("=" * 50)
     
