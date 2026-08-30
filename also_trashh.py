@@ -1,9 +1,7 @@
 
 
 
-    print("=" * 50)
-    
-    # Create objects
+
     dog = Dog("Buddy", "Golden Retriever")
     cat = Cat("Whiskers", "Orange")
     
