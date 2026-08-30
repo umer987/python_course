@@ -1,11 +1,6 @@
 
 
-   
-    
-    # Read from file
-    with open(filename, 'r') as f:
-        content = f.read()
-        lines = f.readlines()
+
     
     # Append to file
     with open(filename, 'a') as f:
