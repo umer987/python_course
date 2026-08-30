@@ -1,17 +1,5 @@
 
 
-# ====== SECTION 7: GENERATORS ======
-def generate_numbers(limit):
-    """Generator that yields numbers up to limit"""
-    for i in range(limit):
-        yield i * 2
-
-def prime_generator(limit):
-    """Generator for prime numbers"""
-    for num in range(2, limit + 1):
-        if is_prime(num):
-            yield num
-
 # ====== SECTION 8: MAIN EXECUTION ======
 def main():
     """Main function to run the program"""
