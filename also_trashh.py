@@ -2,8 +2,6 @@
 
 
 
-    dog = Dog("Buddy", "Golden Retriever")
-    cat = Cat("Whiskers", "Orange")
     
     print(f"\nDog: {dog.speak()}")
     print(f"Cat: {cat.speak()}")
