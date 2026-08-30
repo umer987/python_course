@@ -1,12 +1,4 @@
 
-
-
-
-    
-    print(f"\nDog: {dog.speak()}")
-    print(f"Cat: {cat.speak()}")
-    print(f"Dog fetch: {dog.fetch()}")
-    print(f"Cat purr: {cat.purr()}")
     
     # Test functions
     print(f"\nFibonacci(10): {fibonacci(10)}")
