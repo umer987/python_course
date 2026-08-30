@@ -1,18 +1,4 @@
 
-# ====== SECTION 6: EXCEPTION HANDLING ======
-def divide_safely(a, b):
-    """Divide two numbers with error handling"""
-    try:
-        result = a / b
-        return result
-    except ZeroDivisionError:
-        print("Error: Division by zero!")
-        return None
-    except TypeError:
-        print("Error: Invalid type!")
-        return None
-    finally:
-        print("Division attempted")
 
 # ====== SECTION 7: GENERATORS ======
 def generate_numbers(limit):
