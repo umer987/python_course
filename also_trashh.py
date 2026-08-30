@@ -2,8 +2,6 @@
 
     # Write to file
     with open(filename, 'w') as f:
-        f.write("Hello, Python!\n")
-        f.write("This is line 2\n")
         f.write("This is line 3\n")
     
     # Read from file
