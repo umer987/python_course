@@ -1,8 +1,4 @@
 
-    
-    print(f"Vowels in 'Hello World': {count_vowels('Hello World')}")
-    
-    # Collections
     print("\nCollections Demo:")
     collections = demonstrate_collections()
     print(f"Squares: {collections['squares']}")
