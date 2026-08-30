@@ -1,8 +1,6 @@
 
 
-    # Write to file
-    with open(filename, 'w') as f:
-        f.write("This is line 3\n")
+   
     
     # Read from file
     with open(filename, 'r') as f:
