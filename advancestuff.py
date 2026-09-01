@@ -1,4 +1,3 @@
-
 """#print negative number to N
 l = int(input("ENTER THE NUMBER TO START"))
 for i in range(l ,0,-1):
