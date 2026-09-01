@@ -1,8 +1,6 @@
 
 
 
-    print("\nDecorator Demo:")
-    slow_function()
 
 
     # Exception handling
