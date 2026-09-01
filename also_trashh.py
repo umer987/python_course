@@ -1,13 +1,4 @@
 
-
-
-
-
-    
-
-
-
-    sum_all = reduce(lambda x, y: x + y, numbers)
     print(f"Squared: {squared}")
     print(f"Evens: {evens}")
     print(f"Sum: {sum_all}")
