@@ -4,17 +4,6 @@
 
 
     
-    
-    # List operations
-    print("\nList Operations:")
-    my_list = [1, 2, 3, 4, 5]
-    print(f"Original list: {my_list}")
-    my_list.append(6)
-    print(f"After append: {my_list}")
-    my_list.remove(3)
-    print(f"After remove: {my_list}")
-    
-    # Map, filter, reduce
     numbers = [1, 2, 3, 4, 5, 6]
     squared = list(map(lambda x: x**2, numbers))
     evens = list(filter(lambda x: x % 2 == 0, numbers))
