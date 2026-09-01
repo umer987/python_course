@@ -1,4 +1,3 @@
-"""#print the natural number upto N
 j = int(input("ENTER THE NUMBER TO PRINT"))
 for i in range(1,j+1,1):
     print(i)"""
