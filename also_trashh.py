@@ -3,9 +3,7 @@
 
     
     # Prime generator
-    print("\nPrime numbers up to 20:")
-    primes = list(prime_generator(20))
-    print(f"  {primes}")
+    print("\nPrime numbers up to 20:")")
     
     # Decorator
     print("\nDecorator Demo:")
