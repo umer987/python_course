@@ -1,6 +1,3 @@
-for i in range(1,j+1,1):
-    print(i)"""
-
 """#(ENHANCED) print the natural number upto N
 l = int(input("ENTER THE NUMBER TO START"))
 j = int(input("ENTER THE NUMBER TO STOP"))
