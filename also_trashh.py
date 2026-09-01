@@ -4,10 +4,6 @@
 
 
     # Exception handling
-    print("\nException Handling:")
-    print(f"10 / 3 = {divide_safely(10, 3)}")
-    print(f"10 / 0 = {divide_safely(10, 0)}")
-    
     # File operations
     print("\nFile Operations:")
     file_operations()
