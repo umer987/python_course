@@ -3,13 +3,7 @@
 
 
 
-    # Exception handling
-    # File operations
-    print("\nFile Operations:")
-    file_operations()
-    with open("sample.txt", 'r') as f:
-        print("File content:")
-        print(f.read())
+    
     
     # List operations
     print("\nList Operations:")
