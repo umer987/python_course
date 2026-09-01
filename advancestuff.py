@@ -1,4 +1,3 @@
-j = int(input("ENTER THE NUMBER TO STOP"))
 for i in range(l,j+1,1):
     print(i)"""
 
