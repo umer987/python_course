@@ -1,7 +1,5 @@
 
-app.get('/about',(req,res)=>{
-    res.send("HELLO FROM ABOUT")
-})
+
 app.listen(3000)
     print(f"Squares: {collections['squares']}")
     print(f"Word Count: {collections['word_count']}")
