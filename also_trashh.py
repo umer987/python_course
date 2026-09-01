@@ -1,8 +1,4 @@
-const express = require('express') //importing server
-
-const app = express() //making server calass instance
-app.use
-app.get("/",(req,res)=>{    
+eq,res)=>{    
     res.send("HELLO WORLD")
 })
 app.get('/about',(req,res)=>{
