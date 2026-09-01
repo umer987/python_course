@@ -1,14 +1,10 @@
 
 
 
-    
-    # Prime generator
-    print("\nPrime numbers up to 20:")")
-    
-    # Decorator
     print("\nDecorator Demo:")
     slow_function()
-    
+
+
     # Exception handling
     print("\nException Handling:")
     print(f"10 / 3 = {divide_safely(10, 3)}")
