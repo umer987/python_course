@@ -6,7 +6,7 @@
     
 
 
-    evens = list(filter(lambda x: x % 2 == 0, numbers))
+
     sum_all = reduce(lambda x, y: x + y, numbers)
     print(f"Squared: {squared}")
     print(f"Evens: {evens}")
