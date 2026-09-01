@@ -1,4 +1,3 @@
-    print("HELLO WORLD")"""
 
 """#print the natural number upto N
 j = int(input("ENTER THE NUMBER TO PRINT"))
