@@ -1,9 +1,6 @@
 
 
-mo (first 5 even numbers):")
-    gen = generate_numbers(5)
-    for num in gen:
-        print(f"  {num}")
+
     
     # Prime generator
     print("\nPrime numbers up to 20:")
