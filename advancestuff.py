@@ -1,4 +1,3 @@
-for i in range(l,j+1,1):
     print(i)"""
 
 """#print negative number to N
