@@ -1,11 +1,6 @@
 
 
-app.listen(3000)
-    print(f"Squares: {collections['squares']}")
-    print(f"Word Count: {collections['word_count']}")
-    
-    # Generator
-    print("\nGenerator Demo (first 5 even numbers):")
+mo (first 5 even numbers):")
     gen = generate_numbers(5)
     for num in gen:
         print(f"  {num}")
