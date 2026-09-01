@@ -1,4 +1,3 @@
-for i in range(1,j+1,1):
     print("HELLO WORLD")"""
 
 """#print the natural number upto N
