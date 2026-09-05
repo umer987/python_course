@@ -1,11 +1,6 @@
 
 
 
-        self.grade = grade
-        self.enrollment_date = datetime.now().strftime("%Y-%m-%d")
-        self.courses: List[str] = []
-        self.grades: Dict[str, float] = {}
-    
     def add_course(self, course_name: str) -> None:
         """Add a course to the student's schedule."""
         if course_name not in self.courses:
