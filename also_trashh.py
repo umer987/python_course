@@ -1,17 +1,5 @@
 
     
-    def to_dict(self) -> Dict:
-        """Convert student data to dictionary for JSON serialization."""
-        return {
-            "student_id": self.student_id,
-            "name": self.name,
-            "age": self.age,
-            "grade": self.grade,
-            "enrollment_date": self.enrollment_date,
-            "courses": self.courses,
-            "grades": self.grades
-        }
-    
     @classmethod
     def from_dict(cls, data: Dict) -> 'Student':
         """Create a Student instance from dictionary data."""
