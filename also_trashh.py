@@ -1,11 +1,4 @@
 
-
-
-    def add_course(self, course_name: str) -> None:
-        """Add a course to the student's schedule."""
-        if course_name not in self.courses:
-            self.courses.append(course_name)
-            self.grades[course_name] = 0.0
     
     def update_grade(self, course_name: str, grade: float) -> bool:
         """Update the grade for a specific course."""
