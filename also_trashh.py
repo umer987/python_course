@@ -1,12 +1,5 @@
 
     
-
-    def get_average_grade(self) -> float:
-        """Calculate the average grade across all courses."""
-        if not self.grades:
-            return 0.0
-        return sum(self.grades.values()) / len(self.grades)
-    
     def to_dict(self) -> Dict:
         """Convert student data to dictionary for JSON serialization."""
         return {
