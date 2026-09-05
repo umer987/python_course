@@ -1,12 +1,6 @@
 
 
-class Student:
-    """Represents a student with personal and academic information."""
-    
-    def __init__(self, student_id: str, name: str, age: int, grade: str):
-        self.student_id = student_id
-        self.name = name
-        self.age = age
+
         self.grade = grade
         self.enrollment_date = datetime.now().strftime("%Y-%m-%d")
         self.courses: List[str] = []
