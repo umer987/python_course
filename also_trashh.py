@@ -1,12 +1,6 @@
 
     
-    def update_grade(self, course_name: str, grade: float) -> bool:
-        """Update the grade for a specific course."""
-        if course_name in self.courses and 0 <= grade <= 100:
-            self.grades[course_name] = grade
-            return True
-        return False
-    
+
     def get_average_grade(self) -> float:
         """Calculate the average grade across all courses."""
         if not self.grades:
