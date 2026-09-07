@@ -2,12 +2,7 @@
       
 
 
-class StudentManager:
-    """Manages a collection of students with CRUD operations."""
-    
-    def __init__(self, data_file: str = "students.json"):
-        self.data_file = data_file
-        self.students: Dict[str, Student] = {}
+
         self.load_data()
     
     def add_student(self, student: Student) -> bool:
