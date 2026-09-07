@@ -1,16 +1,3 @@
-
-      
-
-
-    
-    def add_student(self, student: Student) -> bool:
-        """Add a new student to the system."""
-        if student.student_id in self.students:
-            return False
-        self.students[student.student_id] = student
-        self.save_data()
-        return True
-    
     def get_student(self, student_id: str) -> Optional[Student]:
         """Retrieve a student by ID."""
         return self.students.get(student_id)
