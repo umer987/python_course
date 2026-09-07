@@ -2,8 +2,6 @@
       
 
 
-
-        self.load_data()
     
     def add_student(self, student: Student) -> bool:
         """Add a new student to the system."""
