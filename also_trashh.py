@@ -1,10 +1,4 @@
 
-    
-    @classmethod
-    def from_dict(cls, data: Dict) -> 'Student':
-        """Create a Student instance from dictionary data."""
-        student = cls(data["student_id"], data["name"], data["age"], data["grade"])
-        student.enrollment_date = data["enrollment_date"]
         student.courses = data["courses"]
         student.grades = data["grades"]
         return student
