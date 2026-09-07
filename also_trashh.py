@@ -1,10 +1,5 @@
 
-        student.courses = data["courses"]
-        student.grades = data["grades"]
-        return student
-    
-    def __str__(self) -> str:
-        return f"Student: {self.name} (ID: {self.student_id}) - Grade: {self.grade}"
+      
 
 
 class StudentManager:
