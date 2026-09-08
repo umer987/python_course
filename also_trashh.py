@@ -7,12 +7,7 @@
         
     
     
-    def load_data(self) -> None:
-        """Load student data from JSON file."""
-        if not os.path.exists(self.data_file):
-            return
-        try:
-            with open(self.data_file, 'r') as f:
+    open(self.data_file, 'r') as f:
                 data = json.load(f)
             for item in data:
                 student = Student.from_dict(item)
