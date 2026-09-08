@@ -515,3 +515,13 @@ def main():
                     print(f"  [{comment['user']}] {comment['comment'][:50]}...")
             print("="*60)
         
+        elif choice == '12':
+            print("Thank you for using the Task Management System. Goodbye!")
+            break
+        
+        else:
+            print("Invalid choice. Please try again.")
+
+
+if __name__ == "__main__":
+    main()
