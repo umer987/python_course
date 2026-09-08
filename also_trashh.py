@@ -1,6 +1,5 @@
     
-        return True
-    
+        
     def delete_student(self, student_id: str) -> bool:
         """Remove a student from the system."""
         if student_id not in self.students:
