@@ -4,11 +4,7 @@
     
     
     
-        for student in self.students.values():
-            if search_term in student.name.lower() or search_term in student.student_id.lower():
-                results.append(student)
-        return results
-    
+        
     def get_students_by_grade(self, grade: str) -> List[Student]:
         """Filter students by their grade level."""
         return [s for s in self.students.values() if s.grade == grade]
