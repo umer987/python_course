@@ -8,7 +8,7 @@
     
     
     
-            print(f"Error loading data: {e}")
+
 
 
 def main():
