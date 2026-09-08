@@ -1,6 +1,4 @@
-    def get_student(self, student_id: str) -> Optional[Student]:
-        """Retrieve a student by ID."""
-        return self.students.get(student_id)
+    n self.students.get(student_id)
     
     def update_student(self, student_id: str, name: str = None, age: int = None, grade: str = None) -> bool:
         """Update student information."""
