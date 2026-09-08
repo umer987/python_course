@@ -3,10 +3,7 @@
     
     
     
-    def search_students(self, search_term: str) -> List[Student]:
-        """Search students by name or ID (case-insensitive)."""
-        search_term = search_term.lower()
-        results = []
+    
         for student in self.students.values():
             if search_term in student.name.lower() or search_term in student.student_id.lower():
                 results.append(student)
