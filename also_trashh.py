@@ -1,10 +1,4 @@
-    n self.students.get(student_id)
-    
-    def update_student(self, student_id: str, name: str = None, age: int = None, grade: str = None) -> bool:
-        """Update student information."""
-        student = self.get_student(student_id)
-        if not student:
-            return False
+    rn False
         if name:
             student.name = name
         if age:
