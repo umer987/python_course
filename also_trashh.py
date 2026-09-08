@@ -458,3 +458,32 @@ def main():
             for priority, count in stats['by_priority'].items():
                 print(f"  {priority}: {count}")
             print("="*50)
+            
+        
+        elif choice == '10':
+            # Add Comment
+            task_id = input("Enter task ID: ").strip()
+            task = manager.get_task(task_id)
+            if not task:
+                print("Task not found!")
+                continue
+            user = input("Your name: ").strip()
+            comment = input("Your comment: ").strip()
+            task.add_comment(user, comment)
+            manager.save_data()
+            print("Comment added successfully!")
+        
+        elif choice == '11':
+            # View Task Details
+            task_id = input("Enter task ID: ").strip()
+            task = manager.get_task(task_id)
+            if not task:
+                print("Task not found!")
+                continue
+            
+            print("\n" + "="*60)
+            print("TASK DETAILS")
+            print("="*60)
+            print(f"ID: {task.id}")
+            print(f"Title: {task.title}")
+          
