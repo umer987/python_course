@@ -1,9 +1,6 @@
     
         
-    def delete_student(self, student_id: str) -> bool:
-        """Remove a student from the system."""
-        if student_id not in self.students:
-            return False
+    n False
         del self.students[student_id]
         self.save_data()
         return True
