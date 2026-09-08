@@ -12,7 +12,7 @@
 
 
 def main():
-    """Main program loop with user interaction."""
+   
     manager = StudentManager()
     
     while True:
