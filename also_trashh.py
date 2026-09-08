@@ -1,9 +1,6 @@
     
         
-    n False
-        del self.students[student_id]
-        self.save_data()
-        return True
+    
     
     def list_all_students(self) -> List[Student]:
         """Return a list of all students."""
