@@ -418,4 +418,43 @@ def main():
             else:
                 print("Task not found!")
         
-     
+        elif choice == '8':
+            # Add Subtask
+            parent_id = input("Enter parent task ID: ").strip()
+            parent = manager.get_task(parent_id)
+            if not parent:
+                print("Parent task not found!")
+                continue
+            
+            title = input("Subtask title: ").strip()
+            description = input("Subtask description: ").strip()
+            subtask = Task(
+                id=manager._generate_id(),
+                title=title,
+                description=description,
+                priority=parent.priority,
+                status=Status.PENDING,
+                created_at=datetime.now().isoformat()
+            )
+            parent.add_subtask(subtask)
+            manager.save_data()
+            print(f"Subtask added! ID: {subtask.id}")
+        
+        elif choice == '9':
+            # Statistics
+            stats = manager.get_task_statistics()
+            print("\n" + "="*50)
+            print("TASK STATISTICS")
+            print("="*50)
+            print(f"Total Tasks: {stats['total_tasks']}")
+            print(f"Completion Rate: {stats['completion_rate']:.1f}%")
+            print(f"Overdue Tasks: {stats['overdue_tasks']}")
+            print(f"Total Estimated Hours: {stats['total_estimated_hours']:.1f}")
+            print(f"Total Actual Hours: {stats['total_actual_hours']:.1f}")
+            print("\nBy Status:")
+            for status, count in stats['by_status'].items():
+                print(f"  {status}: {count}")
+            print("\nBy Priority:")
+            for priority, count in stats['by_priority'].items():
+                print(f"  {priority}: {count}")
+            print("="*50)
