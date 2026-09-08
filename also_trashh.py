@@ -1,11 +1,4 @@
-    rn False
-        if name:
-            student.name = name
-        if age:
-            student.age = age
-        if grade:
-            student.grade = grade
-        self.save_data()
+    
         return True
     
     def delete_student(self, student_id: str) -> bool:
