@@ -5,9 +5,6 @@
     
     
         
-    def get_students_by_grade(self, grade: str) -> List[Student]:
-        """Filter students by their grade level."""
-        return [s for s in self.students.values() if s.grade == grade]
     
     def save_data(self) -> None:
         """Save all student data to JSON file."""
