@@ -486,4 +486,32 @@ def main():
             print("="*60)
             print(f"ID: {task.id}")
             print(f"Title: {task.title}")
-          
+            print(f"Description: {task.description}")
+            print(f"Priority: {task.priority.name}")
+            print(f"Status: {task.status.value}")
+            print(f"Created: {task.created_at[:19]}")
+            if task.due_date:
+                print(f"Due Date: {task.due_date[:19]}")
+            if task.completed_at:
+                print(f"Completed: {task.completed_at[:19]}")
+            if task.assigned_to:
+                print(f"Assigned To: {task.assigned_to}")
+            print(f"Estimated Hours: {task.estimated_hours}")
+            print(f"Actual Hours: {task.actual_hours}")
+            print(f"Tags: {', '.join(task.tags) if task.tags else 'None'}")
+            print(f"Is Overdue: {'Yes' if task.is_overdue() else 'No'}")
+            
+            if task.subtasks:
+                print(f"\nSubtasks ({len(task.subtasks)}):")
+                for st in task.subtasks:
+                    print(f"  - {st.title} [{st.status.value}]")
+            
+            if task.dependencies:
+                print(f"\nDependencies: {', '.join(task.dependencies)}")
+            
+            if task.comments:
+                print(f"\nComments ({len(task.comments)}):")
+                for comment in task.comments:
+                    print(f"  [{comment['user']}] {comment['comment'][:50]}...")
+            print("="*60)
+        
