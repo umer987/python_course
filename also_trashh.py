@@ -7,12 +7,7 @@
         
     
     
-    open(self.data_file, 'r') as f:
-                data = json.load(f)
-            for item in data:
-                student = Student.from_dict(item)
-                self.students[student.student_id] = student
-        except Exception as e:
+    
             print(f"Error loading data: {e}")
 
 
