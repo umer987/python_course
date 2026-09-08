@@ -6,14 +6,6 @@
     
         
     
-    def save_data(self) -> None:
-        """Save all student data to JSON file."""
-        try:
-            data = [student.to_dict() for student in self.students.values()]
-            with open(self.data_file, 'w') as f:
-                json.dump(data, f, indent=2)
-        except Exception as e:
-            print(f"Error saving data: {e}")
     
     def load_data(self) -> None:
         """Load student data from JSON file."""
