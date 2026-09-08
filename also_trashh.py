@@ -2,9 +2,6 @@
         
     
     
-    def list_all_students(self) -> List[Student]:
-        """Return a list of all students."""
-        return list(self.students.values())
     
     def search_students(self, search_term: str) -> List[Student]:
         """Search students by name or ID (case-insensitive)."""
