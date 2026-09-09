@@ -58,3 +58,17 @@ class Product:
             sales_history=data.get("sales_history", [])
         )
     
+def is_low_stock(self) -> bool:
+        """Check if product is below minimum quantity."""
+        return self.quantity <= self.min_quantity
+    
+    def is_overstocked(self) -> bool:
+        """Check if product exceeds maximum quantity."""
+        return self.quantity >= self.max_quantity
+    
+    def calculate_profit_margin(self) -> Decimal:
+        """Calculate profit margin percentage."""
+        if self.selling_price == 0:
+            return Decimal('0')
+        profit = self.selling_price - self.cost_price
+        return (profit / self.selling_price * Decimal('100')).quantize(Decimal('0.01'), ROUND_HALF_UP)
