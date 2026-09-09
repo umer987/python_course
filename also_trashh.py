@@ -32,4 +32,29 @@ class Product:
     images: List[str] = field(default_factory=list)
     reviews: List[Dict] = field(default_factory=list)
     sales_history: List[Dict] = field(default_factory=list)
+     @classmethod
+    def from_dict(cls, data: Dict) -> 'Product':
+        """Create a Product instance from dictionary data."""
+        return cls(
+            sku=data["sku"],
+            name=data["name"],
+            description=data["description"],
+            category=data["category"],
+            quantity=data["quantity"],
+            min_quantity=data["min_quantity"],
+            max_quantity=data["max_quantity"],
+            cost_price=Decimal(data["cost_price"]),
+            selling_price=Decimal(data["selling_price"]),
+            supplier=data["supplier"],
+            location=data["location"],
+            barcode=data["barcode"],
+            weight=data["weight"],
+            dimensions=data["dimensions"],
+            created_at=data["created_at"],
+            updated_at=data["updated_at"],
+            tags=data.get("tags", []),
+            images=data.get("images", []),
+            reviews=data.get("reviews", []),
+            sales_history=data.get("sales_history", [])
+        )
     
