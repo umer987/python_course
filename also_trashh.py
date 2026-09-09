@@ -72,3 +72,19 @@ def is_low_stock(self) -> bool:
             return Decimal('0')
         profit = self.selling_price - self.cost_price
         return (profit / self.selling_price * Decimal('100')).quantize(Decimal('0.01'), ROUND_HALF_UP)
+def add_review(self, customer: str, rating: int, comment: str) -> None:
+        """Add a customer review."""
+        self.reviews.append({
+            "customer": customer,
+            "rating": rating,
+            "comment": comment,
+            "date": datetime.now().isoformat()
+        })
+    
+    def get_average_rating(self) -> float:
+        """Calculate average rating from reviews."""
+        if not self.reviews:
+            return 0.0
+        total = sum(r["rating"] for r in self.reviews)
+        return round(total / len(self.reviews), 1)
+
