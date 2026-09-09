@@ -134,6 +134,23 @@ class InventoryManager:
             if product.barcode == barcode:
                 return product
         return None
+
+
+     old_quantity = product.quantity
+        product.quantity = quantity
+        product.updated_at = datetime.now().isoformat()
+        
+        # Log transaction
+        self.transactions.append({
+            "sku": sku,
+            "product_name": product.name,
+            "type": transaction_type,
+            "old_quantity": old_quantity,
+            "new_quantity": quantity,
+            "change": quantity - old_quantity,
+            "timestamp": datetime.now().isoformat(),
+            "user": "system"
+        })
     
     def update_quantity(self, sku: str, quantity: int, transaction_type: str = "adjustment") -> bool:
         """Update product quantity and log transaction."""
