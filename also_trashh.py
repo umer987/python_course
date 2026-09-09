@@ -157,3 +157,14 @@ class InventoryManager:
         product = self.get_product(sku)
         if not product:
             return False
+ self.save_data()
+        return True
+    
+    def add_stock(self, sku: str, amount: int) -> bool:
+        """Add stock to a product."""
+        product = self.get_product(sku)
+        if not product:
+            return False
+        new_quantity = product.quantity + amount
+        return self.update_quantity(sku, new_quantity, "restock")
+    
