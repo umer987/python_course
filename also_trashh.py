@@ -88,3 +88,19 @@ def add_review(self, customer: str, rating: int, comment: str) -> None:
         total = sum(r["rating"] for r in self.reviews)
         return round(total / len(self.reviews), 1)
 
+class InventoryManager:
+    """Manages inventory operations with advanced features."""
+    
+    def __init__(self, data_file: str = "inventory.json"):
+        self.data_file = data_file
+        self.products: Dict[str, Product] = {}
+        self.transactions: List[Dict] = []
+        self.load_data()
+        self._generate_barcodes()
+    
+    def _generate_barcodes(self) -> None:
+        """Generate missing barcodes for products."""
+        for product in self.products.values():
+            if not product.barcode:
+                product.barcode = self.generate_barcode()
+        self.save_data()
