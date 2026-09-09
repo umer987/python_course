@@ -127,3 +127,16 @@ class InventoryManager:
     def get_product(self, sku: str) -> Optional[Product]:
         """Retrieve a product by SKU."""
         return self.products.get(sku)
+
+  def get_product_by_barcode(self, barcode: str) -> Optional[Product]:
+        """Find product by barcode."""
+        for product in self.products.values():
+            if product.barcode == barcode:
+                return product
+        return None
+    
+    def update_quantity(self, sku: str, quantity: int, transaction_type: str = "adjustment") -> bool:
+        """Update product quantity and log transaction."""
+        product = self.get_product(sku)
+        if not product:
+            return False
