@@ -104,3 +104,16 @@ class InventoryManager:
             if not product.barcode:
                 product.barcode = self.generate_barcode()
         self.save_data()
+@staticmethod
+    def generate_barcode() -> str:
+        """Generate a random 12-digit barcode."""
+        return ''.join(random.choices(string.digits, k=12))
+    
+    @staticmethod
+    def generate_sku(category: str, name: str) -> str:
+        """Generate a SKU from category and name."""
+        prefix = category[:3].upper()
+        name_part = ''.join(word[0].upper() for word in name.split()[:2])
+        random_part = ''.join(random.choices(string.digits, k=4))
+        return f"{prefix}-{name_part}-{random_part}"
+    
