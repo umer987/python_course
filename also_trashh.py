@@ -116,4 +116,14 @@ class InventoryManager:
         name_part = ''.join(word[0].upper() for word in name.split()[:2])
         random_part = ''.join(random.choices(string.digits, k=4))
         return f"{prefix}-{name_part}-{random_part}"
+    def add_product(self, product: Product) -> bool:
+        """Add a new product to inventory."""
+        if product.sku in self.products:
+            return False
+        self.products[product.sku] = product
+        self.save_data()
+        return True
     
+    def get_product(self, sku: str) -> Optional[Product]:
+        """Retrieve a product by SKU."""
+        return self.products.get(sku)
