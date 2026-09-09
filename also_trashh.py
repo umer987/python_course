@@ -168,3 +168,10 @@ class InventoryManager:
         new_quantity = product.quantity + amount
         return self.update_quantity(sku, new_quantity, "restock")
     
+def remove_stock(self, sku: str, amount: int) -> bool:
+        """Remove stock from a product."""
+        product = self.get_product(sku)
+        if not product or product.quantity < amount:
+            return False
+        new_quantity = product.quantity - amount
+        return self.update_quantity(sku, new_quantity, "sale")
