@@ -1,8 +1,4 @@
 
-    selling_price: Decimal
-    supplier: str
-    location: str
-    barcode: str
     weight: float
     dimensions: str
     created_at: str
