@@ -1,8 +1,4 @@
 
-    quantity: int
-    min_quantity: int
-    max_quantity: int
-    cost_price: Decimal
     selling_price: Decimal
     supplier: str
     location: str
