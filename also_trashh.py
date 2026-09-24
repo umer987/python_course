@@ -1,8 +1,4 @@
 
-from collections import defaultdict
-import hashlib
-import random
-import string
 
 @dataclass
 class Product:
