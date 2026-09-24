@@ -1,12 +1,4 @@
 
-
-@dataclass
-class Product:
-    """Represents a product in the inventory."""
-    sku: str
-    name: str
-    description: str
-    category: str
     quantity: int
     min_quantity: int
     max_quantity: int
