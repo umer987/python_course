@@ -1,7 +1,4 @@
 
-            description=data["description"],
-            category=data["category"],
-            quantity=data["quantity"],
             min_quantity=data["min_quantity"],
             max_quantity=data["max_quantity"],
             cost_price=Decimal(data["cost_price"]),
