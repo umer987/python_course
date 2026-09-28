@@ -1,7 +1,4 @@
 
-            min_quantity=data["min_quantity"],
-            max_quantity=data["max_quantity"],
-            cost_price=Decimal(data["cost_price"]),
             selling_price=Decimal(data["selling_price"]),
             supplier=data["supplier"],
             location=data["location"],
