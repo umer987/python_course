@@ -1,8 +1,4 @@
 
-        """Create a Product instance from dictionary data."""
-        return cls(
-            sku=data["sku"],
-            name=data["name"],
             description=data["description"],
             category=data["category"],
             quantity=data["quantity"],
