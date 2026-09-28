@@ -1,7 +1,4 @@
 
-    weight: float
-    dimensions: str
-    created_at: str
     updated_at: str
     tags: List[str] = field(default_factory=list)
     images: List[str] = field(default_factory=list)
