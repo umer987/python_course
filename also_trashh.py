@@ -1,8 +1,4 @@
 
-    updated_at: str
-    tags: List[str] = field(default_factory=list)
-    images: List[str] = field(default_factory=list)
-    reviews: List[Dict] = field(default_factory=list)
     sales_history: List[Dict] = field(default_factory=list)
      @classmethod
     def from_dict(cls, data: Dict) -> 'Product':
