@@ -1,7 +1,4 @@
 
-    sales_history: List[Dict] = field(default_factory=list)
-     @classmethod
-    def from_dict(cls, data: Dict) -> 'Product':
         """Create a Product instance from dictionary data."""
         return cls(
             sku=data["sku"],
