@@ -1,7 +1,3 @@
-
-            selling_price=Decimal(data["selling_price"]),
-            supplier=data["supplier"],
-            location=data["location"],
             barcode=data["barcode"],
             weight=data["weight"],
             dimensions=data["dimensions"],
